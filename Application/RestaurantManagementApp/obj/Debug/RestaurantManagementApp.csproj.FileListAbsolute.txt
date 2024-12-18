@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\RestaurantManagementApp.exe.config
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\RestaurantManagementApp.exe
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\RestaurantManagementApp.pdb
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Form1.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Properties.Resources.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.exe
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.pdb
