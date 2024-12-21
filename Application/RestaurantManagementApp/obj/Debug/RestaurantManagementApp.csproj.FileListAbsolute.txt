@@ -15,5 +15,13 @@ C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantMana
 C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.AdminAddProduct.resources
 C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.AdminControlPanelForm.resources
 C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.AdminAddLocation.resources
-C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserProfile.resources
 C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.AdminAddOrder.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserDetails.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserControlPanelForm.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserMenuProductCheck.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBooking.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.RestaurantSeats.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserLocationBranchCheck.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBills.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserPreOrderDish.resources
+C:\Users\admin\Desktop\gitHub\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserTransactions.resources

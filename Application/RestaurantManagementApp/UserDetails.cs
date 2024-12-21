@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RestaurantManagementApp
 {
-    public partial class UserProfile : Form
+    public partial class UserDetails : Form
     {
-        public UserProfile()
+        public UserDetails()
         {
             InitializeComponent();
         }
@@ -27,14 +27,9 @@ namespace RestaurantManagementApp
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBack_Click(object sender, EventArgs e)
         {
-            AdminControlPanelForm ctrlForm = new AdminControlPanelForm();
+            UserControlPanelForm ctrlForm = new UserControlPanelForm();
             this.Hide();
             ctrlForm.ShowDialog();
             this.Close();
@@ -48,6 +43,14 @@ namespace RestaurantManagementApp
         private void textBox7_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRecharge_Click(object sender, EventArgs e)
+        {
+            UserTransactions transactions = new UserTransactions();
+            this.Hide();
+            transactions.ShowDialog();
+            this.Close();
         }
     }
 }

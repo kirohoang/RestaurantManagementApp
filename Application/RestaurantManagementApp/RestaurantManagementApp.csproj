@@ -87,11 +87,35 @@
       <DependentUpon>AdminAddProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="API_URL\API_URl.cs" />
-    <Compile Include="UserProfile.cs">
+    <Compile Include="RestaurantSeats.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserProfile.Designer.cs">
-      <DependentUpon>UserProfile.cs</DependentUpon>
+    <Compile Include="RestaurantSeats.Designer.cs">
+      <DependentUpon>RestaurantSeats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBills.Designer.cs">
+      <DependentUpon>UserBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBooking.Designer.cs">
+      <DependentUpon>UserBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlPanelForm.Designer.cs">
+      <DependentUpon>UserControlPanelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDetails.Designer.cs">
+      <DependentUpon>UserDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Branch.cs">
       <SubType>Form</SubType>
@@ -130,6 +154,30 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserLocationBranchCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLocationBranchCheck.Designer.cs">
+      <DependentUpon>UserLocationBranchCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMenuProductCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMenuProductCheck.Designer.cs">
+      <DependentUpon>UserMenuProductCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPreOrderDish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPreOrderDish.Designer.cs">
+      <DependentUpon>UserPreOrderDish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserTransactions.Designer.cs">
+      <DependentUpon>UserTransactions.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminAddCustomer.resx">
       <DependentUpon>AdminAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,8 +190,20 @@
     <EmbeddedResource Include="AdminAddProduct.resx">
       <DependentUpon>AdminAddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserProfile.resx">
-      <DependentUpon>UserProfile.cs</DependentUpon>
+    <EmbeddedResource Include="RestaurantSeats.resx">
+      <DependentUpon>RestaurantSeats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBills.resx">
+      <DependentUpon>UserBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBooking.resx">
+      <DependentUpon>UserBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlPanelForm.resx">
+      <DependentUpon>UserControlPanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDetails.resx">
+      <DependentUpon>UserDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Branch.resx">
       <DependentUpon>Branch.cs</DependentUpon>
@@ -164,6 +224,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLocationBranchCheck.resx">
+      <DependentUpon>UserLocationBranchCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMenuProductCheck.resx">
+      <DependentUpon>UserMenuProductCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPreOrderDish.resx">
+      <DependentUpon>UserPreOrderDish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserTransactions.resx">
+      <DependentUpon>UserTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
