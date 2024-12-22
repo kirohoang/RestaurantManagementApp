@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceProcess" />
@@ -62,54 +65,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminAddCustomer.cs">
+    <Compile Include="Admin\CustomerController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminAddCustomer.Designer.cs">
-      <DependentUpon>AdminAddCustomer.cs</DependentUpon>
+    <Compile Include="Admin\CustomerController.Designer.cs">
+      <DependentUpon>CustomerController.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminAddLocation.cs">
+    <Compile Include="Admin\BranchController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminAddLocation.Designer.cs">
-      <DependentUpon>AdminAddLocation.cs</DependentUpon>
+    <Compile Include="Admin\BranchController.Designer.cs">
+      <DependentUpon>BranchController.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminAddOrder.cs">
+    <Compile Include="Admin\OrderController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminAddOrder.Designer.cs">
-      <DependentUpon>AdminAddOrder.cs</DependentUpon>
+    <Compile Include="Admin\OrderController.Designer.cs">
+      <DependentUpon>OrderController.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminAddProduct.cs">
+    <Compile Include="Admin\OrderDetailsController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminAddProduct.Designer.cs">
-      <DependentUpon>AdminAddProduct.cs</DependentUpon>
+    <Compile Include="Admin\OrderDetailsController.Designer.cs">
+      <DependentUpon>OrderDetailsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductController.Designer.cs">
+      <DependentUpon>ProductController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeatController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\SeatController.Designer.cs">
+      <DependentUpon>SeatController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TransactionController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\TransactionController.Designer.cs">
+      <DependentUpon>TransactionController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="All\EnterMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All\EnterMail.Designer.cs">
+      <DependentUpon>EnterMail.cs</DependentUpon>
     </Compile>
     <Compile Include="API_URL\API_URl.cs" />
-    <Compile Include="UserProfile.cs">
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\OTP.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="User\UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserProfile.Designer.cs">
+    <Compile Include="User\UserProfile.Designer.cs">
       <DependentUpon>UserProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Branch.cs">
+    <Compile Include="All\Branch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Branch.Designer.cs">
+    <Compile Include="All\Branch.Designer.cs">
       <DependentUpon>Branch.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminControlPanelForm.cs">
+    <Compile Include="Admin\AdminController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminControlPanelForm.Designer.cs">
-      <DependentUpon>AdminControlPanelForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainMenu.Designer.cs">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <Compile Include="Admin\AdminController.Designer.cs">
+      <DependentUpon>AdminController.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,53 +142,63 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SignIn.cs">
+    <Compile Include="All\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignIn.Designer.cs">
+    <Compile Include="All\SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.cs">
+    <Compile Include="All\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignUp.Designer.cs">
+    <Compile Include="All\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdminAddCustomer.resx">
-      <DependentUpon>AdminAddCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\CustomerController.resx">
+      <DependentUpon>CustomerController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminAddLocation.resx">
-      <DependentUpon>AdminAddLocation.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\BranchController.resx">
+      <DependentUpon>BranchController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminAddOrder.resx">
-      <DependentUpon>AdminAddOrder.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\OrderController.resx">
+      <DependentUpon>OrderController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminAddProduct.resx">
-      <DependentUpon>AdminAddProduct.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\OrderDetailsController.resx">
+      <DependentUpon>OrderDetailsController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserProfile.resx">
+    <EmbeddedResource Include="Admin\ProductController.resx">
+      <DependentUpon>ProductController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SeatController.resx">
+      <DependentUpon>SeatController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\TransactionController.resx">
+      <DependentUpon>TransactionController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All\EnterMail.resx">
+      <DependentUpon>EnterMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserProfile.resx">
       <DependentUpon>UserProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Branch.resx">
+    <EmbeddedResource Include="All\Branch.resx">
       <DependentUpon>Branch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminControlPanelForm.resx">
-      <DependentUpon>AdminControlPanelForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\AdminController.resx">
+      <DependentUpon>AdminController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignIn.resx">
+    <EmbeddedResource Include="All\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignUp.resx">
+    <EmbeddedResource Include="All\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -195,6 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\chair.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

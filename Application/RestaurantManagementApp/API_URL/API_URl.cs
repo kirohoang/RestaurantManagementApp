@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace RestaurantManagementApp.API_URL
 {
-    internal class API_URl
+    public class API_URl
     {
-        string url = "";
+        public string api_url = "http://localhost:5159/";
     }
+
+
 }
