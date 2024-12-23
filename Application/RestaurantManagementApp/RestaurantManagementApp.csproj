@@ -114,10 +114,14 @@
       <DependentUpon>EnterMail.cs</DependentUpon>
     </Compile>
     <Compile Include="API_URL\API_URl.cs" />
-    <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\Branches.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetails.cs" />
     <Compile Include="Models\OTP.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Seats.cs" />
+    <Compile Include="Models\Transaction.cs" />
     <Compile Include="User\UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>

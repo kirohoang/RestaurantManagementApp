@@ -44,7 +44,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtCustomerID = new System.Windows.Forms.TextBox();
+            this.txtOrderID = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.lblExit = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -73,6 +73,7 @@
             this.btnUpdate.TabIndex = 2;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -83,6 +84,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -93,6 +95,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtQuantity
             // 
@@ -149,11 +152,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(238, 65);
+            this.label2.Location = new System.Drawing.Point(264, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Customer ID";
+            this.label2.Text = "Order ID";
             // 
             // txtOrderDetailsID
             // 
@@ -179,6 +182,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(936, 250);
             this.dataGridView1.TabIndex = 12;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label7
             // 
@@ -203,7 +207,7 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.txtProductName);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.txtCustomerID);
+            this.panel2.Controls.Add(this.txtOrderID);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.txtOrderDetailsID);
             this.panel2.Controls.Add(this.label1);
@@ -212,12 +216,12 @@
             this.panel2.Size = new System.Drawing.Size(936, 189);
             this.panel2.TabIndex = 11;
             // 
-            // txtCustomerID
+            // txtOrderID
             // 
-            this.txtCustomerID.Location = new System.Drawing.Point(352, 61);
-            this.txtCustomerID.Name = "txtCustomerID";
-            this.txtCustomerID.Size = new System.Drawing.Size(100, 20);
-            this.txtCustomerID.TabIndex = 1;
+            this.txtOrderID.Location = new System.Drawing.Point(352, 61);
+            this.txtOrderID.Name = "txtOrderID";
+            this.txtOrderID.Size = new System.Drawing.Size(100, 20);
+            this.txtOrderID.TabIndex = 1;
             // 
             // label11
             // 
@@ -266,6 +270,7 @@
             this.Name = "OrderDetailsController";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailsController";
+            this.Load += new System.EventHandler(this.OrderDetailsController_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -294,7 +299,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox txtCustomerID;
+        private System.Windows.Forms.TextBox txtOrderID;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lblExit;
         private System.Windows.Forms.Panel panel1;

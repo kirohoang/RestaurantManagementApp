@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RestaurantManagementApp.Models
 {
-    internal class Branch
+    internal class Seats
     {
-        public int BranchId { get; set; }
+        public int SeatId { get; set; }
 
-        public string BranchName { get; set; }
+        public int? BranchId { get; set; }
 
-        public string BranchAddress { get; set; }
+        public string Status { get; set; }
     }
 }

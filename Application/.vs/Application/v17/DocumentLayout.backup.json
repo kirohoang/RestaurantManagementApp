@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\RestaurantManagementApp\\Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|D:\\RestaurantManagementApp\\Application\\restaurantmanagementapp\\admin\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|D:\\RestaurantManagementApp\\Application\\restaurantmanagementapp\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 358,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BranchController.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\BranchController.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\BranchController.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\BranchController.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\Admin\\BranchController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TransactionController.cs [Design]",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\TransactionController.cs [Design]",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\TransactionController.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:07:10.999Z",
+              "WhenOpened": "2024-12-23T07:14:44.595Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\TransactionController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwJEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:14:43.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Branch.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Models\\Branch.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Branch.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\Models\\Branch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:05:13.676Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BranchController.cs [Design]",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\BranchController.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\BranchController.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\BranchController.cs [Design]",
-              "RelativeToolTip": "RestaurantManagementApp\\Admin\\BranchController.cs [Design]",
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\SeatController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\SeatController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\SeatController.cs",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\SeatController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAnwLQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T00:04:50.256Z"
+              "WhenOpened": "2024-12-23T06:43:03.656Z",
+              "EditorCaption": ""
             }
           ]
         }

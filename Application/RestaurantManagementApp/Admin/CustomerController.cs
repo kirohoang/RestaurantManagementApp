@@ -56,26 +56,37 @@ namespace RestaurantManagementApp
         {
             try
             {
+                Customer customer = new Customer()
+                {
+                    CustomerName = txtCustomerName.Text,
+                    Username = txtUsername.Text,
+                    Password = txtPassword.Text,
+                    Email = txtEmail.Text,
+                    Address = txtAddress.Text,
+                    Phone = txtPhone.Text
+                };
+
+                string json = JsonConvert.SerializeObject(customer);
+
                 using (HttpClient client = new HttpClient())
                 {
-                    client.BaseAddress = new Uri("http://localhost:5159/");
+                    client.BaseAddress = new Uri(api.api_url);
                     client.DefaultRequestHeaders.Accept.Clear();
                     client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
-                    HttpResponseMessage response = await client.GetAsync("api/Customers");
+                    HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                    HttpResponseMessage response = await client.PostAsync("api/Customers", content);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        string jsonResponse = await response.Content.ReadAsStringAsync();
-                        var customers = JsonConvert.DeserializeObject<List<Customer>>(jsonResponse);
-
-
-                        dataGridView1.DataSource = customers;
+                        MessageBox.Show("Product added successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         AddCustomer_Load(sender, e);
                     }
                     else
                     {
-                        MessageBox.Show("Failed to load customers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        string responseContent = await response.Content.ReadAsStringAsync();
+                        MessageBox.Show($"Failed to add product. Response: {responseContent}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }

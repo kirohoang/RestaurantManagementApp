@@ -42,6 +42,8 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtBranchID = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -88,7 +90,9 @@
             this.panel2.Controls.Add(this.btnBack);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.txtBranchAddress);
+            this.panel2.Controls.Add(this.txtBranchID);
             this.panel2.Controls.Add(this.txtBranchName);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.btnEdit);
@@ -123,6 +127,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(506, 383);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtBranchAddress
             // 
@@ -211,6 +216,26 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Branch Control Panel";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(74, 100);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Branch ID";
+            // 
+            // txtBranchID
+            // 
+            this.txtBranchID.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBranchID.Location = new System.Drawing.Point(189, 98);
+            this.txtBranchID.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBranchID.Name = "txtBranchID";
+            this.txtBranchID.Size = new System.Drawing.Size(183, 24);
+            this.txtBranchID.TabIndex = 2;
+            // 
             // BranchController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,5 +276,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtBranchID;
+        private System.Windows.Forms.Label label1;
     }
 }

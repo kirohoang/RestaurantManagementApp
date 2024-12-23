@@ -41,7 +41,6 @@
             this.txtProductID = new System.Windows.Forms.TextBox();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.txtPayMethod = new System.Windows.Forms.TextBox();
-            this.txtIsPayment = new System.Windows.Forms.TextBox();
             this.txtOrderDate = new System.Windows.Forms.TextBox();
             this.txtOrderID = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -54,6 +53,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.cmbIsPayment = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -109,6 +109,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel2.Controls.Add(this.cmbIsPayment);
             this.panel2.Controls.Add(this.txtBranchID);
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.btnUpdate);
@@ -118,7 +119,6 @@
             this.panel2.Controls.Add(this.txtProductID);
             this.panel2.Controls.Add(this.txtCustomerID);
             this.panel2.Controls.Add(this.txtPayMethod);
-            this.panel2.Controls.Add(this.txtIsPayment);
             this.panel2.Controls.Add(this.txtOrderDate);
             this.panel2.Controls.Add(this.txtOrderID);
             this.panel2.Controls.Add(this.label8);
@@ -153,6 +153,7 @@
             this.btnAdd.TabIndex = 16;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -164,6 +165,7 @@
             this.btnUpdate.TabIndex = 16;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -175,6 +177,7 @@
             this.btnDelete.TabIndex = 16;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtSeatID
             // 
@@ -207,14 +210,6 @@
             this.txtPayMethod.Name = "txtPayMethod";
             this.txtPayMethod.Size = new System.Drawing.Size(210, 20);
             this.txtPayMethod.TabIndex = 1;
-            // 
-            // txtIsPayment
-            // 
-            this.txtIsPayment.Location = new System.Drawing.Point(578, 114);
-            this.txtIsPayment.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIsPayment.Name = "txtIsPayment";
-            this.txtIsPayment.Size = new System.Drawing.Size(210, 20);
-            this.txtIsPayment.TabIndex = 1;
             // 
             // txtOrderDate
             // 
@@ -331,6 +326,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(940, 232);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label1
             // 
@@ -343,7 +339,15 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Order Control Panel";
             // 
-            // AdminAddOrder
+            // cmbIsPayment
+            // 
+            this.cmbIsPayment.FormattingEnabled = true;
+            this.cmbIsPayment.Location = new System.Drawing.Point(577, 112);
+            this.cmbIsPayment.Name = "cmbIsPayment";
+            this.cmbIsPayment.Size = new System.Drawing.Size(210, 21);
+            this.cmbIsPayment.TabIndex = 17;
+            // 
+            // OrderController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -355,9 +359,10 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "AdminAddOrder";
+            this.Name = "OrderController";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminAddOrder";
+            this.Load += new System.EventHandler(this.OrderController_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -385,7 +390,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtPayMethod;
-        private System.Windows.Forms.TextBox txtIsPayment;
         private System.Windows.Forms.TextBox txtOrderDate;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
@@ -396,5 +400,6 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbIsPayment;
     }
 }

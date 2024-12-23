@@ -39,11 +39,11 @@
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtBranchID = new System.Windows.Forms.TextBox();
-            this.lblID = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtSeatID = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -92,8 +92,8 @@
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.cmbStatus);
             this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.txtSeatID);
             this.panel2.Controls.Add(this.txtBranchID);
-            this.panel2.Controls.Add(this.lblID);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(42, 117);
@@ -121,6 +121,7 @@
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -131,6 +132,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -141,6 +143,7 @@
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // cmbStatus
             // 
@@ -166,16 +169,6 @@
             this.txtBranchID.Name = "txtBranchID";
             this.txtBranchID.Size = new System.Drawing.Size(132, 20);
             this.txtBranchID.TabIndex = 1;
-            // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblID.Location = new System.Drawing.Point(113, 63);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(50, 16);
-            this.lblID.TabIndex = 0;
-            this.lblID.Text = "label1";
             // 
             // label3
             // 
@@ -215,6 +208,14 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(868, 277);
             this.dataGridView1.TabIndex = 8;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // txtSeatID
+            // 
+            this.txtSeatID.Location = new System.Drawing.Point(104, 62);
+            this.txtSeatID.Name = "txtSeatID";
+            this.txtSeatID.Size = new System.Drawing.Size(132, 20);
+            this.txtSeatID.TabIndex = 1;
             // 
             // SeatController
             // 
@@ -230,6 +231,7 @@
             this.Name = "SeatController";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SeatController";
+            this.Load += new System.EventHandler(this.SeatController_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -251,12 +253,12 @@
         private System.Windows.Forms.TextBox txtBranchID;
         private System.Windows.Forms.ComboBox cmbStatus;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtSeatID;
     }
 }

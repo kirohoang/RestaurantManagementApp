@@ -26,8 +26,6 @@ namespace RestaurantManagementApp
         {
             try
             {
-                
-
                 int price = int.Parse(txtPrice.Text);
                 int quantity = int.Parse(txtQuantity.Text);
                 Product product = new Product()

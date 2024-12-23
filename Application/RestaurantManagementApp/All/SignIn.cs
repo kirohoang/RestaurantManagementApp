@@ -57,5 +57,10 @@ namespace RestaurantManagementApp
             EnterMail enterEmail = new EnterMail();
             enterEmail.ShowDialog();
         }
+
+        private void SignIn_Load(object sender, EventArgs e)
+        {
+            txtUserName.Select();
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnForgotPassword = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSignUp = new System.Windows.Forms.Button();
             this.btnSignIn = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnForgotPassword = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -65,6 +65,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(308, 258);
             this.panel1.TabIndex = 4;
+            // 
+            // btnForgotPassword
+            // 
+            this.btnForgotPassword.Location = new System.Drawing.Point(153, 188);
+            this.btnForgotPassword.Name = "btnForgotPassword";
+            this.btnForgotPassword.Size = new System.Drawing.Size(104, 23);
+            this.btnForgotPassword.TabIndex = 4;
+            this.btnForgotPassword.Text = "Forgot Password";
+            this.btnForgotPassword.UseVisualStyleBackColor = true;
+            this.btnForgotPassword.Click += new System.EventHandler(this.btnForgotPassword_Click);
             // 
             // label5
             // 
@@ -204,16 +214,6 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // btnForgotPassword
-            // 
-            this.btnForgotPassword.Location = new System.Drawing.Point(153, 188);
-            this.btnForgotPassword.Name = "btnForgotPassword";
-            this.btnForgotPassword.Size = new System.Drawing.Size(104, 23);
-            this.btnForgotPassword.TabIndex = 4;
-            this.btnForgotPassword.Text = "Forgot Password";
-            this.btnForgotPassword.UseVisualStyleBackColor = true;
-            this.btnForgotPassword.Click += new System.EventHandler(this.btnForgotPassword_Click);
-            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,6 +228,7 @@
             this.Name = "SignIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignIn";
+            this.Load += new System.EventHandler(this.SignIn_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
