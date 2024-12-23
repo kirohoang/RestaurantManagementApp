@@ -232,6 +232,22 @@
     <None Include="Resources\1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\Aquafina.png" />
+    <None Include="Images\Burger.jpg" />
+    <None Include="Images\chair.png" />
+    <None Include="Images\Coca Cola.png" />
+    <None Include="Images\FrenchFries.jpg" />
+    <None Include="Images\FriedRice.png" />
+    <None Include="Images\GrillSandwich.png" />
+    <None Include="Images\HotDog.jpg" />
+    <None Include="Images\Lavie.png" />
+    <None Include="Images\OrangeJuice.png" />
+    <None Include="Images\PepperoniPizza.png" />
+    <None Include="Images\PocariSweat.png" />
+    <None Include="Images\Revive.png" />
+    <None Include="Images\SausagePizza.png" />
+    <None Include="Images\Steak.png" />
+    <None Include="Images\TomatoPizza.jpg" />
     <Content Include="Resources\chair.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
