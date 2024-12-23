@@ -21,7 +21,6 @@ D:\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\Restaur
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\RestaurantManagementApp.exe
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\RestaurantManagementApp.pdb
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.csproj.AssemblyReference.cache
-D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserProfile.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Branch.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Properties.Resources.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.SignIn.resources
@@ -42,3 +41,10 @@ D:\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\Newtons
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\bin\Debug\Newtonsoft.Json.xml
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Restaura.A10F663B.Up2Date
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.All.EnterMail.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserControlPanelForm.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserDetails.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserLocationBranchCheck.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserMenuProductCheck.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserTransactions.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBills.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBooking.resources

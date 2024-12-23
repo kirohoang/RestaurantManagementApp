@@ -116,17 +116,49 @@
     <Compile Include="API_URL\API_URl.cs" />
     <Compile Include="Models\Branches.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\CustomerDetails.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetails.cs" />
     <Compile Include="Models\OTP.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Seats.cs" />
+    <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Transaction.cs" />
-    <Compile Include="User\UserProfile.cs">
+    <Compile Include="User\UserBills.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User\UserProfile.Designer.cs">
-      <DependentUpon>UserProfile.cs</DependentUpon>
+    <Compile Include="User\UserBills.Designer.cs">
+      <DependentUpon>UserBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserBooking.Designer.cs">
+      <DependentUpon>UserBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserControlPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserControlPanelForm.Designer.cs">
+      <DependentUpon>UserControlPanelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserDetails.Designer.cs">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserLocationBranchCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserLocationBranchCheck.Designer.cs">
+      <DependentUpon>UserLocationBranchCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserMenuProductCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserMenuProductCheck.Designer.cs">
+      <DependentUpon>UserMenuProductCheck.cs</DependentUpon>
     </Compile>
     <Compile Include="All\Branch.cs">
       <SubType>Form</SubType>
@@ -159,6 +191,12 @@
     <Compile Include="All\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="User\UserTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserTransactions.Designer.cs">
+      <DependentUpon>UserTransactions.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin\CustomerController.resx">
       <DependentUpon>CustomerController.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,8 +221,23 @@
     <EmbeddedResource Include="All\EnterMail.resx">
       <DependentUpon>EnterMail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User\UserProfile.resx">
-      <DependentUpon>UserProfile.cs</DependentUpon>
+    <EmbeddedResource Include="User\UserBills.resx">
+      <DependentUpon>UserBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserBooking.resx">
+      <DependentUpon>UserBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserControlPanelForm.resx">
+      <DependentUpon>UserControlPanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserDetails.resx">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserLocationBranchCheck.resx">
+      <DependentUpon>UserLocationBranchCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserMenuProductCheck.resx">
+      <DependentUpon>UserMenuProductCheck.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="All\Branch.resx">
       <DependentUpon>Branch.cs</DependentUpon>
@@ -202,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="All\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserTransactions.resx">
+      <DependentUpon>UserTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

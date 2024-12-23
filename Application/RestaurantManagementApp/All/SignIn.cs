@@ -1,9 +1,12 @@
 ﻿using RestaurantManagementApp.All;
+using RestaurantManagementApp.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +25,6 @@ namespace RestaurantManagementApp
         {
             Application.Exit();
         }
-
         private void btnSignIn_Click(object sender, EventArgs e)
         {
             if (txtUserName.Text.Equals("admin") && txtPassWord.Text.Equals("admin"))
@@ -37,11 +39,31 @@ namespace RestaurantManagementApp
                 MessageBox.Show("You have to input your Account Username and Password");
                 return;
             }
-            Branch branch = new Branch();
-            this.Hide();
-            branch.ShowDialog();
-            this.Close();
+            string connectionString = "Server=KIROLAPTOP\\SQLEXPRESS01;Database=FinalTerm;Trusted_connection=true;TrustServerCertificate=true";
+            string query = "SELECT COUNT(1) FROM Customers WHERE Username=@Username AND Password=@Password";
 
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Username", txtUserName.Text);
+                command.Parameters.AddWithValue("@Password", txtPassWord.Text);
+
+                connection.Open();
+                int count = Convert.ToInt32(command.ExecuteScalar());
+
+                if (count == 1)
+                {
+                    Session.Username = txtUserName.Text;
+                    UserControlPanelForm userControlPanel = new UserControlPanelForm();
+                    this.Hide();
+                    userControlPanel.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username or Password");
+                }
+            }
         }
 
         private void SignUp_Click(object sender, EventArgs e)
