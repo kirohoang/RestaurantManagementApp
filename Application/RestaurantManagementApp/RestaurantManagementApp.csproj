@@ -114,6 +114,7 @@
       <DependentUpon>EnterMail.cs</DependentUpon>
     </Compile>
     <Compile Include="API_URL\API_URl.cs" />
+    <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\OTP.cs" />
     <Compile Include="Models\Product.cs" />
