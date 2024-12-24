@@ -77,5 +77,21 @@ namespace RestaurantManagementApp
             ctrForm.ShowDialog();
             this.Close();
         }
+
+        private void PicCustomerDetails_Click(object sender, EventArgs e)
+        {
+            CustomerDetailsController ctrForm = new CustomerDetailsController();
+            this.Hide();
+            ctrForm.ShowDialog();
+            this.Close();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            SignIn signInForm = new SignIn();
+            this.Hide();
+            signInForm.ShowDialog();
+            this.Close();
+        }
     }
 }

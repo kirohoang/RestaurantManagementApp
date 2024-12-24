@@ -35,12 +35,11 @@ namespace RestaurantManagementApp
             return int.TryParse(input, out n);
         }
 
-        private void btnConfirm_Click(object sender, EventArgs e)
+        private async void btnConfirm_Click(object sender, EventArgs e)
         {
             try
             {
-
-                if (string.IsNullOrEmpty(txtUsername.Text) || 
+                if (string.IsNullOrEmpty(txtUsername.Text) ||
                     string.IsNullOrEmpty(txtPassword.Text) ||
                     string.IsNullOrEmpty(txtName.Text) ||
                     string.IsNullOrEmpty(txtAddress.Text) ||
@@ -73,15 +72,39 @@ namespace RestaurantManagementApp
 
                     HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                    HttpResponseMessage response = client.PostAsync("api/Customers", content).Result;
+                    HttpResponseMessage response = await client.PostAsync("api/Customers", content);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        MessageBox.Show("Sign up successfully");
-                        SignIn sign = new SignIn();
-                        this.Hide();
-                        sign.ShowDialog();
-                        this.Close();
+                        // Deserialize the response to get the created customer with the CustomerId
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        Customer createdCustomer = JsonConvert.DeserializeObject<Customer>(responseBody);
+
+                        CustomerDetails customerDetails = new CustomerDetails()
+                        {
+                            CustomerId = createdCustomer.CustomerId, // Use the CustomerId from the created customer
+                            CustomerBudget = 0,
+                            Status = "Active"
+                        };
+
+                        string json1 = JsonConvert.SerializeObject(customerDetails);
+
+                        HttpContent customerDetailsContent = new StringContent(json1, Encoding.UTF8, "application/json");
+                        HttpResponseMessage responseCustomerDetails = await client.PostAsync("api/CustomerDetails", customerDetailsContent);
+
+                        if (responseCustomerDetails.IsSuccessStatusCode)
+                        {
+                            MessageBox.Show("Sign up successfully");
+
+                            SignIn sign = new SignIn();
+                            this.Hide();
+                            sign.ShowDialog();
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to create customer details");
+                        }
                     }
                     else
                     {

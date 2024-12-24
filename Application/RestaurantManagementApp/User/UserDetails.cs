@@ -87,10 +87,13 @@ namespace RestaurantManagementApp
                         string jsonResponseCustomerDetail = await responseCustomerDetails.Content.ReadAsStringAsync();
                         var customerDetails = JsonConvert.DeserializeObject<CustomerDetails>(jsonResponseCustomerDetail);
 
+                        txtID.Text = Convert.ToString(customer.CustomerId);
                         txtName.Text = customer.CustomerName;
                         txtMail.Text = customer.Email;
                         txtPhone.Text = customer.Phone;
                         txtAddress.Text = customer.Address;
+
+                        Session.Id = Convert.ToString(customer.CustomerId);
                         if (responseCustomerDetails.IsSuccessStatusCode)
                         {
                             txtBudget.Text = Convert.ToString(customerDetails.CustomerBudget);

@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "D:\\RestaurantManagementApp\\Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\models\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\models\\customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\customerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\customerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\user\\usercontrolpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\user\\usercontrolpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\all\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\all\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|d:\\restaurantmanagementapp\\application\\restaurantmanagementapp\\admin\\customerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D27D8DF9-4838-4372-9E18-E1873A90B155}|RestaurantManagementApp\\RestaurantManagementApp.csproj|solutionrelative:restaurantmanagementapp\\admin\\customerdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,42 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserDetails.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\User\\UserDetails.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserDetails.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\User\\UserDetails.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwF8AAABeAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\AdminController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\AdminController.cs",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\AdminController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwF0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T11:54:28.176Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-24T02:37:08.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserDetails.cs [Design]",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserDetails.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\User\\UserDetails.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserDetails.cs [Design]",
-              "RelativeToolTip": "RestaurantManagementApp\\User\\UserDetails.cs [Design]",
+              "Title": "AdminController.cs [Design]",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\AdminController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\AdminController.cs [Design]",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\AdminController.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T11:49:20.174Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-24T02:36:46.985Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerDetails.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\CustomerDetails.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Models\\CustomerDetails.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\CustomerDetails.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\Models\\CustomerDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:01:15.103Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,74 +65,35 @@
               "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\CustomerController.cs",
               "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerController.cs",
               "RelativeToolTip": "RestaurantManagementApp\\Admin\\CustomerController.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAD4v/4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAkwAoBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:46:32.794Z",
+              "WhenOpened": "2024-12-24T02:32:19.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetailsController.cs",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswLQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T02:31:28.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CustomerController.cs [Design]",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerController.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\CustomerController.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerController.cs [Design]",
-              "RelativeToolTip": "RestaurantManagementApp\\Admin\\CustomerController.cs [Design]",
+              "Title": "CustomerDetailsController.cs [Design]",
+              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementApp\\Admin\\CustomerDetailsController.cs",
+              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Admin\\CustomerDetailsController.cs [Design]",
+              "RelativeToolTip": "RestaurantManagementApp\\Admin\\CustomerDetailsController.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:46:30.033Z",
+              "WhenOpened": "2024-12-24T02:23:09.742Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Session.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Session.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Models\\Session.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Session.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\Models\\Session.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:31:45.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\Models\\Customer.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\Models\\Customer.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:31:05.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserControlPanelForm.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserControlPanelForm.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\User\\UserControlPanelForm.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\User\\UserControlPanelForm.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\User\\UserControlPanelForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:24:02.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SignIn.cs",
-              "DocumentMoniker": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\All\\SignIn.cs",
-              "RelativeDocumentMoniker": "RestaurantManagementApp\\All\\SignIn.cs",
-              "ToolTip": "D:\\RestaurantManagementApp\\Application\\RestaurantManagementApp\\All\\SignIn.cs",
-              "RelativeToolTip": "RestaurantManagementApp\\All\\SignIn.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADgvzcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:15:50.333Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -48,3 +48,4 @@ D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Restaur
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserTransactions.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBills.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBooking.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Admin.CustomerDetailsController.resources

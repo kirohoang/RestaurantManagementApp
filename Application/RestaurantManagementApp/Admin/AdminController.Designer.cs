@@ -32,16 +32,17 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblExit = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PicLocation = new System.Windows.Forms.PictureBox();
             this.PicProduct = new System.Windows.Forms.PictureBox();
@@ -49,10 +50,14 @@
             this.PicTransaction = new System.Windows.Forms.PictureBox();
             this.PicSeat = new System.Windows.Forms.PictureBox();
             this.PicCustomer = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.PicCustomerDetails = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicLocation)).BeginInit();
@@ -61,8 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicTransaction)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSeat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicCustomer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicCustomerDetails)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -99,6 +103,24 @@
             this.panel3.Size = new System.Drawing.Size(206, 514);
             this.panel3.TabIndex = 6;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(44, 297);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(107, 87);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(44, 52);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(107, 87);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // lblExit
             // 
             this.lblExit.AutoSize = true;
@@ -121,6 +143,7 @@
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.PicLocation);
@@ -128,6 +151,7 @@
             this.panel2.Controls.Add(this.PicOrderDetails);
             this.panel2.Controls.Add(this.PicTransaction);
             this.panel2.Controls.Add(this.PicSeat);
+            this.panel2.Controls.Add(this.PicCustomerDetails);
             this.panel2.Controls.Add(this.PicCustomer);
             this.panel2.Location = new System.Drawing.Point(48, 115);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
@@ -168,11 +192,22 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Location";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(699, 356);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(109, 21);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Order Details";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(396, 350);
+            this.label3.Location = new System.Drawing.Point(485, 356);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 21);
@@ -183,7 +218,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(200, 350);
+            this.label2.Location = new System.Drawing.Point(289, 356);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 21);
@@ -200,28 +235,6 @@
             this.label1.Size = new System.Drawing.Size(81, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Customer";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(373, 76);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 36);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Control Panel";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(610, 350);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 21);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Order Details";
             // 
             // pictureBox1
             // 
@@ -266,7 +279,7 @@
             // 
             this.PicOrderDetails.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PicOrderDetails.Image = ((System.Drawing.Image)(resources.GetObject("PicOrderDetails.Image")));
-            this.PicOrderDetails.Location = new System.Drawing.Point(614, 233);
+            this.PicOrderDetails.Location = new System.Drawing.Point(703, 239);
             this.PicOrderDetails.Margin = new System.Windows.Forms.Padding(2);
             this.PicOrderDetails.Name = "PicOrderDetails";
             this.PicOrderDetails.Size = new System.Drawing.Size(103, 115);
@@ -279,7 +292,7 @@
             // 
             this.PicTransaction.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PicTransaction.Image = ((System.Drawing.Image)(resources.GetObject("PicTransaction.Image")));
-            this.PicTransaction.Location = new System.Drawing.Point(388, 233);
+            this.PicTransaction.Location = new System.Drawing.Point(477, 239);
             this.PicTransaction.Margin = new System.Windows.Forms.Padding(2);
             this.PicTransaction.Name = "PicTransaction";
             this.PicTransaction.Size = new System.Drawing.Size(103, 115);
@@ -292,7 +305,7 @@
             // 
             this.PicSeat.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PicSeat.Image = ((System.Drawing.Image)(resources.GetObject("PicSeat.Image")));
-            this.PicSeat.Location = new System.Drawing.Point(169, 233);
+            this.PicSeat.Location = new System.Drawing.Point(258, 239);
             this.PicSeat.Margin = new System.Windows.Forms.Padding(2);
             this.PicSeat.Name = "PicSeat";
             this.PicSeat.Size = new System.Drawing.Size(103, 115);
@@ -314,23 +327,51 @@
             this.PicCustomer.TabStop = false;
             this.PicCustomer.Click += new System.EventHandler(this.PicCustomer_Click);
             // 
-            // pictureBox3
+            // label6
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(44, 297);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(107, 87);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(373, 76);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(201, 36);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Control Panel";
             // 
-            // pictureBox4
+            // PicCustomerDetails
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(44, 52);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(107, 87);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.PicCustomerDetails.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.PicCustomerDetails.Image = ((System.Drawing.Image)(resources.GetObject("PicCustomerDetails.Image")));
+            this.PicCustomerDetails.Location = new System.Drawing.Point(59, 239);
+            this.PicCustomerDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.PicCustomerDetails.Name = "PicCustomerDetails";
+            this.PicCustomerDetails.Size = new System.Drawing.Size(103, 115);
+            this.PicCustomerDetails.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicCustomerDetails.TabIndex = 0;
+            this.PicCustomerDetails.TabStop = false;
+            this.PicCustomerDetails.Click += new System.EventHandler(this.PicCustomerDetails_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(41, 356);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(136, 21);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Customer Details";
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Location = new System.Drawing.Point(882, 77);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(75, 33);
+            this.btnLogout.TabIndex = 7;
+            this.btnLogout.Text = "Log Out";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // AdminController
             // 
@@ -338,6 +379,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(960, 585);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -350,6 +392,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -359,8 +403,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicTransaction)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicSeat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicCustomer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicCustomerDetails)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,5 +433,8 @@
         private System.Windows.Forms.PictureBox PicTransaction;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox PicOrderDetails;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox PicCustomerDetails;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

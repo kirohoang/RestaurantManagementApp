@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManagementApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,6 +32,13 @@ namespace RestaurantManagementApp
             this.Hide();
             Detailsform.ShowDialog();
             this.Close();
+        }
+
+        private void UserTransactions_Load(object sender, EventArgs e)
+        {
+            txtID.Text = Session.Id;
+
+
         }
     }
 }

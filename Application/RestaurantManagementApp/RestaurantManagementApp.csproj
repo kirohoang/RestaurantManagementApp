@@ -77,6 +77,12 @@
     <Compile Include="Admin\BranchController.Designer.cs">
       <DependentUpon>BranchController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\CustomerDetailsController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomerDetailsController.Designer.cs">
+      <DependentUpon>CustomerDetailsController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\OrderController.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\BranchController.resx">
       <DependentUpon>BranchController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\CustomerDetailsController.resx">
+      <DependentUpon>CustomerDetailsController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\OrderController.resx">
       <DependentUpon>OrderController.cs</DependentUpon>
