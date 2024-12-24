@@ -10,5 +10,8 @@ namespace RestaurantManagementApp.Models
     {
         public static string Id { get; set; }
         public static string Username { get; set; }
+
+        public static string product_name { get; set; }
+        public static string product_id { get; set; }
     }
 }

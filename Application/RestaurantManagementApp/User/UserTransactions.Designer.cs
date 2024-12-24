@@ -37,12 +37,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtBudget = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnRechargeBudget = new System.Windows.Forms.Button();
-            this.btnConfirm = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.btnConfirm = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
             this.panel2.SuspendLayout();
@@ -65,19 +65,20 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(938, -1);
+            this.label3.Location = new System.Drawing.Point(936, -1);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 24);
             this.label3.TabIndex = 9;
             this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.picUser);
             this.panel1.Location = new System.Drawing.Point(-1, 25);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(961, 72);
             this.panel1.TabIndex = 8;
@@ -86,8 +87,8 @@
             // 
             this.picUser.BackColor = System.Drawing.Color.White;
             this.picUser.Image = ((System.Drawing.Image)(resources.GetObject("picUser.Image")));
-            this.picUser.Location = new System.Drawing.Point(923, 32);
-            this.picUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picUser.Location = new System.Drawing.Point(921, 29);
+            this.picUser.Margin = new System.Windows.Forms.Padding(2);
             this.picUser.Name = "picUser";
             this.picUser.Size = new System.Drawing.Size(38, 41);
             this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -121,7 +122,7 @@
             // txtBudget
             // 
             this.txtBudget.Location = new System.Drawing.Point(179, 134);
-            this.txtBudget.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBudget.Margin = new System.Windows.Forms.Padding(2);
             this.txtBudget.Name = "txtBudget";
             this.txtBudget.Size = new System.Drawing.Size(327, 20);
             this.txtBudget.TabIndex = 11;
@@ -137,41 +138,52 @@
             this.panel2.Controls.Add(this.txtID);
             this.panel2.Controls.Add(this.txtBudget);
             this.panel2.Location = new System.Drawing.Point(171, 150);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(665, 287);
             this.panel2.TabIndex = 12;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(97, 137);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Your Budget";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(117, 96);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Your ID";
+            // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(364, 176);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Location = new System.Drawing.Point(365, 216);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(141, 39);
             this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnRechargeBudget
             // 
-            this.btnRechargeBudget.Location = new System.Drawing.Point(179, 176);
-            this.btnRechargeBudget.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRechargeBudget.Location = new System.Drawing.Point(179, 216);
+            this.btnRechargeBudget.Margin = new System.Windows.Forms.Padding(2);
             this.btnRechargeBudget.Name = "btnRechargeBudget";
             this.btnRechargeBudget.Size = new System.Drawing.Size(141, 39);
             this.btnRechargeBudget.TabIndex = 12;
             this.btnRechargeBudget.Text = "Recharge your budget";
             this.btnRechargeBudget.UseVisualStyleBackColor = true;
-            // 
-            // btnConfirm
-            // 
-            this.btnConfirm.Location = new System.Drawing.Point(400, 460);
-            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(224, 41);
-            this.btnConfirm.TabIndex = 13;
-            this.btnConfirm.Text = "Confirm";
-            this.btnConfirm.UseVisualStyleBackColor = true;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            this.btnRechargeBudget.Click += new System.EventHandler(this.btnRechargeBudget_Click);
             // 
             // txtID
             // 
@@ -181,23 +193,16 @@
             this.txtID.Size = new System.Drawing.Size(327, 20);
             this.txtID.TabIndex = 11;
             // 
-            // label4
+            // btnConfirm
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(117, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Your ID";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(108, 137);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Your Budget";
+            this.btnConfirm.Location = new System.Drawing.Point(400, 460);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(224, 41);
+            this.btnConfirm.TabIndex = 13;
+            this.btnConfirm.Text = "Confirm";
+            this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // UserTransactions
             // 
@@ -211,7 +216,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserTransactions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserTransactions";

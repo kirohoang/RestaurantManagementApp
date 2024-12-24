@@ -49,3 +49,7 @@ D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Restaur
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBills.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.UserBooking.resources
 D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\RestaurantManagementApp.Admin.CustomerDetailsController.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Branch1.Branch1SeatsFloor1.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Branch1.branch1SeatsFloor2.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Branch1.Branch2SeatsFloor1.resources
+D:\RestaurantManagementApp\Application\RestaurantManagementApp\obj\Debug\Branch1.Branch2SeatsFloor2.resources

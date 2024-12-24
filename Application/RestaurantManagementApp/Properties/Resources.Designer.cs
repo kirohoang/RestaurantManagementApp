@@ -123,6 +123,16 @@ namespace RestaurantManagementApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap communication {
+            get {
+                object obj = ResourceManager.GetObject("communication", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrenchFries {
             get {
                 object obj = ResourceManager.GetObject("FrenchFries", resourceCulture);
@@ -176,6 +186,16 @@ namespace RestaurantManagementApp.Properties {
         internal static System.Drawing.Bitmap OrangeJuice {
             get {
                 object obj = ResourceManager.GetObject("OrangeJuice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrangeJuice1 {
+            get {
+                object obj = ResourceManager.GetObject("OrangeJuice1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

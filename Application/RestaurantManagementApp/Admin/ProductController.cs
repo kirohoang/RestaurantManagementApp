@@ -54,6 +54,14 @@ namespace RestaurantManagementApp
                     {
                         MessageBox.Show("Product added successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ProductController_Load(sender, e);
+                        txtProductID.Text = "";
+                        txtName.Text = "";
+                        txtPrice.Text = "";
+                        txtQuantity.Text = "";
+                        txtDescription.Text = "";
+                        txtImage.Text = "";
+                        cmbType.Text = "";
+                        pictureBox1.Image = null;
                     }
                     else
                     {
@@ -120,6 +128,14 @@ namespace RestaurantManagementApp
                     {
                         MessageBox.Show("Product deleted successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ProductController_Load(sender, e);
+                        txtProductID.Text = "";
+                        txtName.Text = "";
+                        txtPrice.Text = "";
+                        txtQuantity.Text = "";
+                        txtDescription.Text = "";
+                        txtImage.Text = "";
+                        cmbType.Text = "";
+                        pictureBox1.Image = null;
                     }
                     else
                     {
@@ -185,6 +201,7 @@ namespace RestaurantManagementApp
         {
             try
             {
+                cmbType.Items.Clear();
                 cmbType.Items.Add("Food");
                 cmbType.Items.Add("Drink");
                 using (HttpClient client = new HttpClient())

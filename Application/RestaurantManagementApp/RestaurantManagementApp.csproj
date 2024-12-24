@@ -130,6 +130,30 @@
     <Compile Include="Models\Seats.cs" />
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Transaction.cs" />
+    <Compile Include="User\Branch1SeatsFloor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Branch1SeatsFloor1.Designer.cs">
+      <DependentUpon>Branch1SeatsFloor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\branch1SeatsFloor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\branch1SeatsFloor2.Designer.cs">
+      <DependentUpon>branch1SeatsFloor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Branch2SeatsFloor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Branch2SeatsFloor1.Designer.cs">
+      <DependentUpon>Branch2SeatsFloor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Branch2SeatsFloor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Branch2SeatsFloor2.Designer.cs">
+      <DependentUpon>Branch2SeatsFloor2.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\UserBills.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +254,18 @@
     <EmbeddedResource Include="All\EnterMail.resx">
       <DependentUpon>EnterMail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User\Branch1SeatsFloor1.resx">
+      <DependentUpon>Branch1SeatsFloor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\branch1SeatsFloor2.resx">
+      <DependentUpon>branch1SeatsFloor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Branch2SeatsFloor1.resx">
+      <DependentUpon>Branch2SeatsFloor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Branch2SeatsFloor2.resx">
+      <DependentUpon>Branch2SeatsFloor2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User\UserBills.resx">
       <DependentUpon>UserBills.cs</DependentUpon>
     </EmbeddedResource>
@@ -317,6 +353,7 @@
     <None Include="Images\SausagePizza.png" />
     <None Include="Images\Steak.png" />
     <None Include="Images\TomatoPizza.jpg" />
+    <None Include="Images\communication.png" />
     <Content Include="Resources\chair.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

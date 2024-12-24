@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using RestaurantManagementApp.API_URL;
+using RestaurantManagementApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -89,6 +93,38 @@ namespace RestaurantManagementApp
             //this.Hide();
             //preorders.ShowDialog();
             //this.Close();
+        }
+        API_URl api = new API_URl();
+        private async void UserBooking_Load(object sender, EventArgs e)
+        {
+            txtProductName.Text = Session.product_name;
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(api.api_url);
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+                    HttpResponseMessage response = await client.GetAsync($"api/Products/find/{txtProductName.Text}");
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string jsonResponse = await response.Content.ReadAsStringAsync();
+                        var product = JsonConvert.DeserializeObject<List<Product>>(jsonResponse);
+
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to load customers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
