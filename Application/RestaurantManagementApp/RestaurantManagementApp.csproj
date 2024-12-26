@@ -337,6 +337,9 @@
     <None Include="Resources\1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Quan12.jpg" />
+    <None Include="Resources\question-sign.png" />
+    <None Include="Resources\Quan1.jpg" />
     <None Include="Images\Aquafina.png" />
     <None Include="Images\Burger.jpg" />
     <None Include="Images\chair.png" />

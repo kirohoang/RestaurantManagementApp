@@ -32,18 +32,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.picUser = new System.Windows.Forms.PictureBox();
             this.lblBooking = new System.Windows.Forms.Label();
             this.lblEdit_Reset = new System.Windows.Forms.Label();
             this.lblLocation = new System.Windows.Forms.Label();
             this.lblMenu = new System.Windows.Forms.Label();
             this.lblHome = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.picUser = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -51,9 +50,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(525, -1);
+            this.label1.Location = new System.Drawing.Point(394, -1);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 50);
+            this.label1.Size = new System.Drawing.Size(232, 40);
             this.label1.TabIndex = 4;
             this.label1.Text = "CHAT PALACE";
             // 
@@ -62,9 +62,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1251, -1);
+            this.label3.Location = new System.Drawing.Point(938, -1);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 29);
+            this.label3.Size = new System.Drawing.Size(24, 24);
             this.label3.TabIndex = 6;
             this.label3.Text = "X";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -78,19 +79,34 @@
             this.panel1.Controls.Add(this.lblLocation);
             this.panel1.Controls.Add(this.lblMenu);
             this.panel1.Controls.Add(this.lblHome);
-            this.panel1.Location = new System.Drawing.Point(0, 31);
+            this.panel1.Location = new System.Drawing.Point(0, 25);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1281, 89);
+            this.panel1.Size = new System.Drawing.Size(961, 72);
             this.panel1.TabIndex = 5;
+            // 
+            // picUser
+            // 
+            this.picUser.BackColor = System.Drawing.Color.White;
+            this.picUser.Image = ((System.Drawing.Image)(resources.GetObject("picUser.Image")));
+            this.picUser.Location = new System.Drawing.Point(923, 32);
+            this.picUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picUser.Name = "picUser";
+            this.picUser.Size = new System.Drawing.Size(38, 41);
+            this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUser.TabIndex = 0;
+            this.picUser.TabStop = false;
+            this.picUser.Click += new System.EventHandler(this.picUser_Click);
             // 
             // lblBooking
             // 
             this.lblBooking.AutoSize = true;
             this.lblBooking.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBooking.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblBooking.Location = new System.Drawing.Point(601, 40);
+            this.lblBooking.Location = new System.Drawing.Point(451, 32);
+            this.lblBooking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBooking.Name = "lblBooking";
-            this.lblBooking.Size = new System.Drawing.Size(103, 25);
+            this.lblBooking.Size = new System.Drawing.Size(78, 18);
             this.lblBooking.TabIndex = 1;
             this.lblBooking.Text = "Booking";
             this.lblBooking.Click += new System.EventHandler(this.lblBooking_Click);
@@ -100,9 +116,10 @@
             this.lblEdit_Reset.AutoSize = true;
             this.lblEdit_Reset.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEdit_Reset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEdit_Reset.Location = new System.Drawing.Point(907, 40);
+            this.lblEdit_Reset.Location = new System.Drawing.Point(680, 32);
+            this.lblEdit_Reset.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEdit_Reset.Name = "lblEdit_Reset";
-            this.lblEdit_Reset.Size = new System.Drawing.Size(107, 25);
+            this.lblEdit_Reset.Size = new System.Drawing.Size(78, 18);
             this.lblEdit_Reset.TabIndex = 0;
             this.lblEdit_Reset.Text = "Your bill";
             this.lblEdit_Reset.Click += new System.EventHandler(this.lblEdit_Reset_Click);
@@ -112,9 +129,10 @@
             this.lblLocation.AutoSize = true;
             this.lblLocation.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLocation.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLocation.Location = new System.Drawing.Point(760, 40);
+            this.lblLocation.Location = new System.Drawing.Point(570, 32);
+            this.lblLocation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLocation.Name = "lblLocation";
-            this.lblLocation.Size = new System.Drawing.Size(108, 25);
+            this.lblLocation.Size = new System.Drawing.Size(82, 18);
             this.lblLocation.TabIndex = 0;
             this.lblLocation.Text = "Location";
             this.lblLocation.Click += new System.EventHandler(this.lblLocation_Click);
@@ -124,9 +142,10 @@
             this.lblMenu.AutoSize = true;
             this.lblMenu.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMenu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMenu.Location = new System.Drawing.Point(468, 40);
+            this.lblMenu.Location = new System.Drawing.Point(351, 32);
+            this.lblMenu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(72, 25);
+            this.lblMenu.Size = new System.Drawing.Size(56, 18);
             this.lblMenu.TabIndex = 0;
             this.lblMenu.Text = "Menu";
             this.lblMenu.Click += new System.EventHandler(this.lblMenu_Click);
@@ -136,73 +155,53 @@
             this.lblHome.AutoSize = true;
             this.lblHome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblHome.Location = new System.Drawing.Point(320, 40);
+            this.lblHome.Location = new System.Drawing.Point(240, 32);
+            this.lblHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(77, 25);
+            this.lblHome.Size = new System.Drawing.Size(59, 18);
             this.lblHome.TabIndex = 0;
             this.lblHome.Text = "Home";
             this.lblHome.Click += new System.EventHandler(this.lblHome_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(447, 126);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(441, 468);
-            this.panel2.TabIndex = 7;
-            // 
-            // picUser
-            // 
-            this.picUser.BackColor = System.Drawing.Color.White;
-            this.picUser.Image = ((System.Drawing.Image)(resources.GetObject("picUser.Image")));
-            this.picUser.Location = new System.Drawing.Point(1231, 40);
-            this.picUser.Name = "picUser";
-            this.picUser.Size = new System.Drawing.Size(50, 50);
-            this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picUser.TabIndex = 0;
-            this.picUser.TabStop = false;
-            this.picUser.Click += new System.EventHandler(this.picUser_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "ID BILL";
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(620, 631);
+            this.button1.Location = new System.Drawing.Point(440, 539);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 43);
+            this.button1.Size = new System.Drawing.Size(106, 35);
             this.button1.TabIndex = 8;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 154);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(936, 317);
+            this.dataGridView1.TabIndex = 9;
+            // 
             // UserBills
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.ClientSize = new System.Drawing.Size(960, 585);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UserBills";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserBills";
+            this.Load += new System.EventHandler(this.UserBills_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,8 +218,7 @@
         private System.Windows.Forms.Label lblLocation;
         private System.Windows.Forms.Label lblMenu;
         private System.Windows.Forms.Label lblHome;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -32,9 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblEdit_reset = new System.Windows.Forms.Label();
+            this.lblBill = new System.Windows.Forms.Label();
             this.lblLocation = new System.Windows.Forms.Label();
-            this.lblBooking = new System.Windows.Forms.Label();
             this.picUser = new System.Windows.Forms.PictureBox();
             this.lblMenu = new System.Windows.Forms.Label();
             this.lblHome = new System.Windows.Forms.Label();
@@ -47,16 +46,16 @@
             this.txtSeat = new System.Windows.Forms.TextBox();
             this.bookingDate = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnAgree = new System.Windows.Forms.Button();
+            this.btnOrder = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtIsPayment = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtPaymentMethod = new System.Windows.Forms.TextBox();
+            this.btnBranch = new System.Windows.Forms.Button();
+            this.txtBranchID = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
             this.SuspendLayout();
@@ -89,9 +88,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.lblEdit_reset);
+            this.panel1.Controls.Add(this.lblBill);
             this.panel1.Controls.Add(this.lblLocation);
-            this.panel1.Controls.Add(this.lblBooking);
             this.panel1.Controls.Add(this.picUser);
             this.panel1.Controls.Add(this.lblMenu);
             this.panel1.Controls.Add(this.lblHome);
@@ -101,18 +99,18 @@
             this.panel1.Size = new System.Drawing.Size(961, 72);
             this.panel1.TabIndex = 10;
             // 
-            // lblEdit_reset
+            // lblBill
             // 
-            this.lblEdit_reset.AutoSize = true;
-            this.lblEdit_reset.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEdit_reset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblEdit_reset.Location = new System.Drawing.Point(696, 32);
-            this.lblEdit_reset.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblEdit_reset.Name = "lblEdit_reset";
-            this.lblEdit_reset.Size = new System.Drawing.Size(131, 18);
-            this.lblEdit_reset.TabIndex = 0;
-            this.lblEdit_reset.Text = "Edit/Reset bill";
-            this.lblEdit_reset.Click += new System.EventHandler(this.lblEdit_reset_Click);
+            this.lblBill.AutoSize = true;
+            this.lblBill.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBill.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblBill.Location = new System.Drawing.Point(696, 32);
+            this.lblBill.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBill.Name = "lblBill";
+            this.lblBill.Size = new System.Drawing.Size(32, 18);
+            this.lblBill.TabIndex = 0;
+            this.lblBill.Text = "Bill";
+            this.lblBill.Click += new System.EventHandler(this.lblEdit_reset_Click);
             // 
             // lblLocation
             // 
@@ -126,19 +124,6 @@
             this.lblLocation.TabIndex = 0;
             this.lblLocation.Text = "Location";
             this.lblLocation.Click += new System.EventHandler(this.lblLocation_Click);
-            // 
-            // lblBooking
-            // 
-            this.lblBooking.AutoSize = true;
-            this.lblBooking.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBooking.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblBooking.Location = new System.Drawing.Point(461, 32);
-            this.lblBooking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblBooking.Name = "lblBooking";
-            this.lblBooking.Size = new System.Drawing.Size(78, 18);
-            this.lblBooking.TabIndex = 0;
-            this.lblBooking.Text = "Booking";
-            this.lblBooking.Click += new System.EventHandler(this.lblBooking_Click);
             // 
             // picUser
             // 
@@ -183,7 +168,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(90, 183);
+            this.label2.Location = new System.Drawing.Point(17, 183);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 23);
@@ -194,7 +179,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(152, 221);
+            this.label4.Location = new System.Drawing.Point(80, 256);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 23);
@@ -205,7 +190,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(519, 142);
+            this.label5.Location = new System.Drawing.Point(638, 142);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(89, 23);
@@ -216,7 +201,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(540, 183);
+            this.label6.Location = new System.Drawing.Point(659, 183);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 23);
@@ -225,7 +210,7 @@
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(230, 183);
+            this.txtProductName.Location = new System.Drawing.Point(157, 183);
             this.txtProductName.Margin = new System.Windows.Forms.Padding(2);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(213, 20);
@@ -233,7 +218,7 @@
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(617, 145);
+            this.txtQuantity.Location = new System.Drawing.Point(736, 145);
             this.txtQuantity.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(213, 20);
@@ -241,7 +226,7 @@
             // 
             // txtSeat
             // 
-            this.txtSeat.Location = new System.Drawing.Point(230, 226);
+            this.txtSeat.Location = new System.Drawing.Point(158, 259);
             this.txtSeat.Margin = new System.Windows.Forms.Padding(2);
             this.txtSeat.Name = "txtSeat";
             this.txtSeat.Size = new System.Drawing.Size(213, 20);
@@ -249,7 +234,7 @@
             // 
             // bookingDate
             // 
-            this.bookingDate.Location = new System.Drawing.Point(617, 186);
+            this.bookingDate.Location = new System.Drawing.Point(736, 186);
             this.bookingDate.Margin = new System.Windows.Forms.Padding(2);
             this.bookingDate.Name = "bookingDate";
             this.bookingDate.Size = new System.Drawing.Size(210, 20);
@@ -259,53 +244,34 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(124, 266);
+            this.label7.Location = new System.Drawing.Point(51, 220);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 23);
             this.label7.TabIndex = 12;
             this.label7.Text = "Branch";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(230, 269);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(213, 21);
-            this.comboBox1.TabIndex = 15;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(511, 223);
+            this.label8.Location = new System.Drawing.Point(630, 223);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(103, 23);
             this.label8.TabIndex = 12;
             this.label8.Text = "IsPayment";
             // 
-            // btnClear
+            // btnOrder
             // 
-            this.btnClear.Location = new System.Drawing.Point(515, 378);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(124, 33);
-            this.btnClear.TabIndex = 18;
-            this.btnClear.Text = "Clear All";
-            this.btnClear.UseVisualStyleBackColor = true;
-            // 
-            // btnAgree
-            // 
-            this.btnAgree.Location = new System.Drawing.Point(370, 378);
-            this.btnAgree.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAgree.Name = "btnAgree";
-            this.btnAgree.Size = new System.Drawing.Size(124, 33);
-            this.btnAgree.TabIndex = 18;
-            this.btnAgree.Text = "Agree";
-            this.btnAgree.UseVisualStyleBackColor = true;
-            this.btnAgree.Click += new System.EventHandler(this.btnAgree_Click);
+            this.btnOrder.Location = new System.Drawing.Point(439, 382);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(124, 33);
+            this.btnOrder.TabIndex = 18;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnAgree_Click);
             // 
             // label10
             // 
@@ -322,7 +288,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(104, 142);
+            this.label11.Location = new System.Drawing.Point(31, 142);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(123, 23);
@@ -331,25 +297,25 @@
             // 
             // txtCustomerID
             // 
-            this.txtCustomerID.Location = new System.Drawing.Point(230, 145);
+            this.txtCustomerID.Location = new System.Drawing.Point(157, 145);
             this.txtCustomerID.Margin = new System.Windows.Forms.Padding(2);
             this.txtCustomerID.Name = "txtCustomerID";
             this.txtCustomerID.Size = new System.Drawing.Size(213, 20);
             this.txtCustomerID.TabIndex = 13;
             // 
-            // textBox1
+            // txtIsPayment
             // 
-            this.textBox1.Location = new System.Drawing.Point(618, 226);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 20);
-            this.textBox1.TabIndex = 13;
+            this.txtIsPayment.Location = new System.Drawing.Point(737, 226);
+            this.txtIsPayment.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIsPayment.Name = "txtIsPayment";
+            this.txtIsPayment.Size = new System.Drawing.Size(213, 20);
+            this.txtIsPayment.TabIndex = 13;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Book Antiqua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(451, 266);
+            this.label9.Location = new System.Drawing.Point(570, 266);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(163, 23);
@@ -358,25 +324,43 @@
             // 
             // txtPaymentMethod
             // 
-            this.txtPaymentMethod.Location = new System.Drawing.Point(618, 269);
+            this.txtPaymentMethod.Location = new System.Drawing.Point(737, 269);
             this.txtPaymentMethod.Margin = new System.Windows.Forms.Padding(2);
             this.txtPaymentMethod.Name = "txtPaymentMethod";
             this.txtPaymentMethod.Size = new System.Drawing.Size(213, 20);
             this.txtPaymentMethod.TabIndex = 13;
+            // 
+            // btnBranch
+            // 
+            this.btnBranch.Location = new System.Drawing.Point(385, 218);
+            this.btnBranch.Name = "btnBranch";
+            this.btnBranch.Size = new System.Drawing.Size(90, 28);
+            this.btnBranch.TabIndex = 20;
+            this.btnBranch.Text = "Choose Branch";
+            this.btnBranch.UseVisualStyleBackColor = true;
+            this.btnBranch.Click += new System.EventHandler(this.btnBranch_Click);
+            // 
+            // txtBranchID
+            // 
+            this.txtBranchID.Location = new System.Drawing.Point(157, 223);
+            this.txtBranchID.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBranchID.Name = "txtBranchID";
+            this.txtBranchID.Size = new System.Drawing.Size(213, 20);
+            this.txtBranchID.TabIndex = 13;
             // 
             // UserBooking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 585);
+            this.Controls.Add(this.btnBranch);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.btnAgree);
-            this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.bookingDate);
+            this.Controls.Add(this.txtBranchID);
             this.Controls.Add(this.txtSeat);
             this.Controls.Add(this.txtPaymentMethod);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtIsPayment);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.txtCustomerID);
             this.Controls.Add(this.txtProductName);
@@ -410,9 +394,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblEdit_reset;
-        private System.Windows.Forms.Label lblLocation;
-        private System.Windows.Forms.Label lblBooking;
+        private System.Windows.Forms.Label lblBill;
         private System.Windows.Forms.Label lblMenu;
         private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.PictureBox picUser;
@@ -425,15 +407,16 @@
         private System.Windows.Forms.TextBox txtSeat;
         private System.Windows.Forms.DateTimePicker bookingDate;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnAgree;
+        private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtCustomerID;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtIsPayment;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtPaymentMethod;
+        private System.Windows.Forms.Button btnBranch;
+        private System.Windows.Forms.TextBox txtBranchID;
+        private System.Windows.Forms.Label lblLocation;
     }
 }

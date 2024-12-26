@@ -67,7 +67,6 @@ namespace RestaurantManagementApp.Admin
         {
             try
             {
-
                 Seats seats = new Seats()
                 {
                     BranchId = Convert.ToInt32(txtBranchID.Text),

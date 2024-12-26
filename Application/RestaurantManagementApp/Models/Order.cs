@@ -18,6 +18,8 @@ namespace RestaurantManagementApp.Models
 
         public int? BranchId { get; set; }
 
+        
+
         public DateTime OrderDate { get; set; }
 
         public string Ispayment { get; set; }

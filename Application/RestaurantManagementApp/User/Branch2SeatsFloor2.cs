@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManagementApp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,14 @@ namespace Branch1
             Branch2SeatsFloor1 brnch2Floor1 = new Branch2SeatsFloor1();
             this.Hide();
             brnch2Floor1.ShowDialog();
+            this.Close();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            UserBooking userBooking = new UserBooking();
+            this.Hide();
+            userBooking.ShowDialog();
             this.Close();
         }
     }

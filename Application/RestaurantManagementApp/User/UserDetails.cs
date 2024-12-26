@@ -88,6 +88,7 @@ namespace RestaurantManagementApp
                         var customerDetails = JsonConvert.DeserializeObject<CustomerDetails>(jsonResponseCustomerDetail);
 
                         txtID.Text = Convert.ToString(customer.CustomerId);
+                        Session.Id = Convert.ToString(customer.CustomerId);
                         txtName.Text = customer.CustomerName;
                         txtMail.Text = customer.Email;
                         txtPhone.Text = customer.Phone;

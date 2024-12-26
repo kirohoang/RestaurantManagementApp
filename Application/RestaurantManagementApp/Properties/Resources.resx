@@ -130,6 +130,12 @@
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="question-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\question-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Coca Cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Coca Cola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +156,9 @@
   </data>
   <data name="HotDog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\HotDog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeJuice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\OrangeJuice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GrillSandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\GrillSandwich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +184,7 @@
   <data name="chair" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\chair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OrangeJuice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\OrangeJuice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Quan12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quan12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -43,7 +43,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.btnConfirm = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -86,13 +85,14 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(489, 592);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Location = new System.Drawing.Point(397, 585);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(153, 38);
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label10
             // 
@@ -129,7 +129,7 @@
             this.paneTable4.BackColor = System.Drawing.Color.Bisque;
             this.paneTable4.Controls.Add(this.label15);
             this.paneTable4.Location = new System.Drawing.Point(30, 8);
-            this.paneTable4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.paneTable4.Margin = new System.Windows.Forms.Padding(2);
             this.paneTable4.Name = "paneTable4";
             this.paneTable4.Size = new System.Drawing.Size(105, 162);
             this.paneTable4.TabIndex = 1;
@@ -153,7 +153,7 @@
             this.panelTable2.BackColor = System.Drawing.Color.Bisque;
             this.panelTable2.Controls.Add(this.label12);
             this.panelTable2.Location = new System.Drawing.Point(786, 328);
-            this.panelTable2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable2.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable2.Name = "panelTable2";
             this.panelTable2.Size = new System.Drawing.Size(105, 142);
             this.panelTable2.TabIndex = 1;
@@ -177,7 +177,7 @@
             this.panelTable3.BackColor = System.Drawing.Color.Bisque;
             this.panelTable3.Controls.Add(this.label14);
             this.panelTable3.Location = new System.Drawing.Point(619, 231);
-            this.panelTable3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable3.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable3.Name = "panelTable3";
             this.panelTable3.Size = new System.Drawing.Size(143, 84);
             this.panelTable3.TabIndex = 1;
@@ -201,7 +201,7 @@
             this.panelTable5.BackColor = System.Drawing.Color.Bisque;
             this.panelTable5.Controls.Add(this.label16);
             this.panelTable5.Location = new System.Drawing.Point(9, 221);
-            this.panelTable5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable5.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable5.Name = "panelTable5";
             this.panelTable5.Size = new System.Drawing.Size(143, 84);
             this.panelTable5.TabIndex = 1;
@@ -276,16 +276,6 @@
             this.label18.Text = "Table6";
             this.label18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // btnConfirm
-            // 
-            this.btnConfirm.Location = new System.Drawing.Point(279, 592);
-            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(153, 38);
-            this.btnConfirm.TabIndex = 12;
-            this.btnConfirm.Text = "Confirm";
-            this.btnConfirm.UseVisualStyleBackColor = true;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -303,7 +293,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel6.Location = new System.Drawing.Point(820, 2);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(8, 224);
             this.panel6.TabIndex = 1;
@@ -349,7 +339,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(0, 23);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(961, 72);
             this.panel1.TabIndex = 7;
@@ -398,7 +388,7 @@
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Location = new System.Drawing.Point(9, 100);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(893, 479);
             this.panel2.TabIndex = 10;
@@ -408,7 +398,7 @@
             this.panel12.BackColor = System.Drawing.Color.Silver;
             this.panel12.Controls.Add(this.label7);
             this.panel12.Location = new System.Drawing.Point(432, 0);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(80, 32);
             this.panel12.TabIndex = 2;
@@ -420,7 +410,7 @@
             this.panelStair.Controls.Add(this.label9);
             this.panelStair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panelStair.Location = new System.Drawing.Point(827, 2);
-            this.panelStair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelStair.Margin = new System.Windows.Forms.Padding(2);
             this.panelStair.Name = "panelStair";
             this.panelStair.Size = new System.Drawing.Size(64, 207);
             this.panelStair.TabIndex = 1;
@@ -431,7 +421,7 @@
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(346, 448);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(216, 30);
             this.panel3.TabIndex = 0;
@@ -452,7 +442,7 @@
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel9.Controls.Add(this.label8);
             this.panel9.Location = new System.Drawing.Point(346, 252);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(50, 167);
             this.panel9.TabIndex = 1;
@@ -474,7 +464,7 @@
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel11.Controls.Add(this.label11);
             this.panel11.Location = new System.Drawing.Point(554, 2);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(262, 84);
             this.panel11.TabIndex = 1;
@@ -484,7 +474,7 @@
             this.panelTable1.BackColor = System.Drawing.Color.Bisque;
             this.panelTable1.Controls.Add(this.label13);
             this.panelTable1.Location = new System.Drawing.Point(590, 386);
-            this.panelTable1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable1.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable1.Name = "panelTable1";
             this.panelTable1.Size = new System.Drawing.Size(151, 84);
             this.panelTable1.TabIndex = 1;
@@ -494,7 +484,7 @@
             this.panelTable6.BackColor = System.Drawing.Color.Bisque;
             this.panelTable6.Controls.Add(this.label18);
             this.panelTable6.Location = new System.Drawing.Point(202, 309);
-            this.panelTable6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable6.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable6.Name = "panelTable6";
             this.panelTable6.Size = new System.Drawing.Size(105, 162);
             this.panelTable6.TabIndex = 1;
@@ -504,7 +494,7 @@
             this.panelTable8.BackColor = System.Drawing.Color.Bisque;
             this.panelTable8.Controls.Add(this.label19);
             this.panelTable8.Location = new System.Drawing.Point(252, 63);
-            this.panelTable8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable8.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable8.Name = "panelTable8";
             this.panelTable8.Size = new System.Drawing.Size(143, 84);
             this.panelTable8.TabIndex = 1;
@@ -528,7 +518,7 @@
             this.panelTable7.BackColor = System.Drawing.Color.Bisque;
             this.panelTable7.Controls.Add(this.label17);
             this.panelTable7.Location = new System.Drawing.Point(9, 386);
-            this.panelTable7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTable7.Margin = new System.Windows.Forms.Padding(2);
             this.panelTable7.Name = "panelTable7";
             this.panelTable7.Size = new System.Drawing.Size(143, 84);
             this.panelTable7.TabIndex = 1;
@@ -537,7 +527,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel5.Location = new System.Drawing.Point(559, 332);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(15, 147);
             this.panel5.TabIndex = 0;
@@ -546,7 +536,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel4.Location = new System.Drawing.Point(332, 211);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(14, 267);
             this.panel4.TabIndex = 0;
@@ -557,13 +547,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 634);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Branch2SeatsFloor1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Branch2SeatsFloor1";
@@ -619,7 +608,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label7;

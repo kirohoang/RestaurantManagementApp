@@ -35,15 +35,6 @@ namespace RestaurantManagementApp
         {
             
         }
-
-        private void lblBooking_Click(object sender, EventArgs e)
-        {
-            UserBooking BookingForm = new UserBooking();
-            this.Hide();
-            BookingForm.ShowDialog();
-            this.Close();
-        }
-
         private void picUser_Click(object sender, EventArgs e)
         {
             UserDetails Detailsform = new UserDetails();
@@ -70,7 +61,9 @@ namespace RestaurantManagementApp
 
         private void btnBurger_Click(object sender, EventArgs e)
         {
+            Session.product_id = "8";
             Session.product_name = "Burger";
+            Session.price = 35000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -79,7 +72,9 @@ namespace RestaurantManagementApp
 
         private void btnCoca_Click(object sender, EventArgs e)
         {
+            Session.product_id = "9";
             Session.product_name = "Coca";
+            Session.price = 10000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -88,7 +83,9 @@ namespace RestaurantManagementApp
 
         private void btnFrenchFried_Click(object sender, EventArgs e)
         {
+            Session.product_id = "10";
             Session.product_name = "French Fried";
+            Session.price = 20000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -97,7 +94,9 @@ namespace RestaurantManagementApp
 
         private void btnFriedRice_Click(object sender, EventArgs e)
         {
+            Session.product_id = "11";
             Session.product_name = "Fried Rice";
+            Session.price = 25000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -106,7 +105,9 @@ namespace RestaurantManagementApp
 
         private void btnPocari_Click(object sender, EventArgs e)
         {
+            Session.product_id = "12";
             Session.product_name = "Pocari";
+            Session.price = 14000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -115,7 +116,9 @@ namespace RestaurantManagementApp
 
         private void btnRevive_Click(object sender, EventArgs e)
         {
+            Session.product_id = "13";
             Session.product_name = "Revive";
+            Session.price = 10000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -124,7 +127,9 @@ namespace RestaurantManagementApp
 
         private void btnSausagePizza_Click(object sender, EventArgs e)
         {
+            Session.product_id = "14";
             Session.product_name = "Sausage Pizza";
+            Session.price = 30000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -133,7 +138,9 @@ namespace RestaurantManagementApp
 
         private void btnSteak_Click(object sender, EventArgs e)
         {
+            Session.product_id = "15";
             Session.product_name = "Steak";
+            Session.price = 45000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -143,6 +150,7 @@ namespace RestaurantManagementApp
         private void btnJuice_Click(object sender, EventArgs e)
         {
             Session.product_name = "Juice";
+            Session.price = 14000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -151,6 +159,8 @@ namespace RestaurantManagementApp
 
         private void btnAquafina_Click(object sender, EventArgs e)
         {
+            Session.product_id = "Aquafina";
+            Session.price = 5000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -159,6 +169,8 @@ namespace RestaurantManagementApp
 
         private void btnSandWich_Click(object sender, EventArgs e)
         {
+            Session.product_name = "Sandwich";
+            Session.price = 20000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();
@@ -167,6 +179,8 @@ namespace RestaurantManagementApp
 
         private void btnHotDog_Click(object sender, EventArgs e)
         {
+            Session.product_name = "Hot Dog";
+            Session.price = 25000;
             UserBooking booking = new UserBooking();
             this.Hide();
             booking.ShowDialog();

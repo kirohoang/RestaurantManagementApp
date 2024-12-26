@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Branch1;
+using Newtonsoft.Json;
 using RestaurantManagementApp.API_URL;
 using RestaurantManagementApp.Models;
 using System;
@@ -36,7 +37,6 @@ namespace RestaurantManagementApp
             ctrlForm.ShowDialog();
             this.Close();
         }
-
         private void lblMenu_Click(object sender, EventArgs e)
         {
             UserMenuProductCheck MenuForm = new UserMenuProductCheck();
@@ -44,25 +44,10 @@ namespace RestaurantManagementApp
             MenuForm.ShowDialog();
             this.Close();
         }
-
-        private void lblBooking_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-        private void btnSeats_Click(object sender, EventArgs e)
-        {
-            //RestaurantSeats seats = new RestaurantSeats();
-            //this.Hide();
-            //seats.ShowDialog();
-            //this.Close();
-        }
-
         private void lblLocation_Click(object sender, EventArgs e)
         {
             UserLocationBranchCheck location = new UserLocationBranchCheck();
@@ -79,45 +64,84 @@ namespace RestaurantManagementApp
             this.Close();
         }
 
-        private void btnAgree_Click(object sender, EventArgs e)
+        private async void btnAgree_Click(object sender, EventArgs e)
         {
-            UserBills bill = new UserBills();
-            this.Hide();
-            bill.ShowDialog();
-            this.Close();
-        }
-
-        private void btnPreOrders_Click(object sender, EventArgs e)
-        {
-            //UserPreOrderDish preorders = new UserPreOrderDish();
-            //this.Hide();
-            //preorders.ShowDialog();
-            //this.Close();
-        }
-        API_URl api = new API_URl();
-        private async void UserBooking_Load(object sender, EventArgs e)
-        {
-            txtProductName.Text = Session.product_name;
             try
             {
+                Order order = new Order()
+                {
+                    CustomerId = int.Parse(txtCustomerID.Text),
+                    ProductId = int.Parse(Session.product_id),
+                    BranchId = int.Parse(txtBranchID.Text),
+                    SeatId = int.Parse(txtSeat.Text),
+                    OrderDate = bookingDate.Value,
+                    PaymentMethod = txtPaymentMethod.Text,
+                    Ispayment = "True"
+                };
+
+                Seats seatUpdate = new Seats()
+                {
+                    SeatId = int.Parse(txtSeat.Text),
+                    BranchId = int.Parse(txtBranchID.Text),
+                    Status = "Not Available"
+                };
+
+                string jsonOrder = JsonConvert.SerializeObject(order);
+                string jsonSeat = JsonConvert.SerializeObject(seatUpdate);
+
                 using (HttpClient client = new HttpClient())
                 {
                     client.BaseAddress = new Uri(api.api_url);
                     client.DefaultRequestHeaders.Accept.Clear();
                     client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
-                    HttpResponseMessage response = await client.GetAsync($"api/Products/find/{txtProductName.Text}");
+                    HttpContent contentOrder = new StringContent(jsonOrder, Encoding.UTF8, "application/json");
+                    HttpContent contentSeat = new StringContent(jsonSeat, Encoding.UTF8, "application/json");
+
+                    HttpResponseMessage response = await client.GetAsync($"api/Seats/{txtSeat.Text}");
 
                     if (response.IsSuccessStatusCode)
                     {
                         string jsonResponse = await response.Content.ReadAsStringAsync();
-                        var product = JsonConvert.DeserializeObject<List<Product>>(jsonResponse);
+                        var seatTaken = JsonConvert.DeserializeObject<Seats>(jsonResponse);
 
-                        
+                        if (seatTaken.Status == "Not Available")
+                        {
+                            MessageBox.Show("Seat is already taken", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        else
+                        {
+                            // Add Order
+                            HttpResponseMessage responseAddOrder = await client.PostAsync("api/Orders", contentOrder);
+                            if (responseAddOrder.IsSuccessStatusCode)
+                            {
+                                string orderResponse = await responseAddOrder.Content.ReadAsStringAsync();
+                                var createdOrder = JsonConvert.DeserializeObject<Order>(orderResponse);
+
+                                // Update Seat Status
+                                HttpResponseMessage responseUpdateSeat = await client.PutAsync($"api/Seats/{txtSeat.Text}", contentSeat);
+
+                                // Add OrderDetails
+                                OrderDetails orderDetails = new OrderDetails()
+                                {
+                                    OrderId = createdOrder.OrderId,
+                                    ProductName = txtProductName.Text,
+                                    Quantity = int.Parse(txtQuantity.Text),
+                                    Price = decimal.Parse(txtQuantity.Text) * Session.price
+                                };
+                                Session.orderID = createdOrder.OrderId.ToString();
+                                string jsonOrderDetails = JsonConvert.SerializeObject(orderDetails);
+                                HttpContent contentOrderDetails = new StringContent(jsonOrderDetails, Encoding.UTF8, "application/json");
+                                HttpResponseMessage responseAddOrderDetails = await client.PostAsync("api/OrderDetails", contentOrderDetails);
+                                MessageBox.Show("Ordered Sucessfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("Failed to load customers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Error!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
                     }
                 }
             }
@@ -125,6 +149,25 @@ namespace RestaurantManagementApp
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        API_URl api = new API_URl();
+        private async void UserBooking_Load(object sender, EventArgs e)
+        {
+            txtCustomerID.Text = Session.Id;
+            txtProductName.Text = Session.product_name;
+            txtSeat.Text = Session.seatID;
+            txtBranchID.Text = Session.brandID;
+            Session.quantity = txtQuantity.Text;
+            txtPaymentMethod.Text = "Cash";
+            txtIsPayment.Text = "False";
+
+        }
+        private void btnBranch_Click(object sender, EventArgs e)
+        {
+            UserLocationBranchCheck location = new UserLocationBranchCheck();
+            this.Hide();
+            location.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -32,115 +32,111 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblLocation = new System.Windows.Forms.Label();
-            this.lblBooking = new System.Windows.Forms.Label();
+            this.picUser = new System.Windows.Forms.PictureBox();
             this.lblMenu = new System.Windows.Forms.Label();
             this.lblHome = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.label39 = new System.Windows.Forms.Label();
+            this.btnHotDog = new System.Windows.Forms.Button();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.btnSandWich = new System.Windows.Forms.Button();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.btnSteak = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.btnSausagePizza = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.btnAquafina = new System.Windows.Forms.Button();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.panelFriedRice = new System.Windows.Forms.Panel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.btnFriedRice = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.btnRevive = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
+            this.btnJuice = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.panelFrenchFried = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.btnFrenchFried = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.btnPocari = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panelCocaCola = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.btnCoca = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panelBurger = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
+            this.btnBurger = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtSearchProduct = new System.Windows.Forms.TextBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.picUser = new System.Windows.Forms.PictureBox();
-            this.btnBurger = new System.Windows.Forms.Button();
-            this.btnCoca = new System.Windows.Forms.Button();
-            this.btnFrenchFried = new System.Windows.Forms.Button();
-            this.btnFriedRice = new System.Windows.Forms.Button();
-            this.btnPocari = new System.Windows.Forms.Button();
-            this.btnJuice = new System.Windows.Forms.Button();
-            this.btnRevive = new System.Windows.Forms.Button();
-            this.btnSausagePizza = new System.Windows.Forms.Button();
-            this.btnSteak = new System.Windows.Forms.Button();
-            this.btnAquafina = new System.Windows.Forms.Button();
-            this.btnSandWich = new System.Windows.Forms.Button();
-            this.btnHotDog = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel13.SuspendLayout();
-            this.panelFriedRice.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panelFrenchFried.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panelCocaCola.SuspendLayout();
-            this.panelBurger.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.panelFriedRice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panelFrenchFried.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panelCocaCola.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelBurger.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -172,8 +168,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.picUser);
-            this.panel1.Controls.Add(this.lblLocation);
-            this.panel1.Controls.Add(this.lblBooking);
             this.panel1.Controls.Add(this.lblMenu);
             this.panel1.Controls.Add(this.lblHome);
             this.panel1.Location = new System.Drawing.Point(-2, 25);
@@ -182,38 +176,25 @@
             this.panel1.Size = new System.Drawing.Size(961, 72);
             this.panel1.TabIndex = 5;
             // 
-            // lblLocation
+            // picUser
             // 
-            this.lblLocation.AutoSize = true;
-            this.lblLocation.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLocation.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblLocation.Location = new System.Drawing.Point(581, 32);
-            this.lblLocation.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblLocation.Name = "lblLocation";
-            this.lblLocation.Size = new System.Drawing.Size(82, 18);
-            this.lblLocation.TabIndex = 0;
-            this.lblLocation.Text = "Location";
-            this.lblLocation.Click += new System.EventHandler(this.lblLocation_Click);
-            // 
-            // lblBooking
-            // 
-            this.lblBooking.AutoSize = true;
-            this.lblBooking.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBooking.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblBooking.Location = new System.Drawing.Point(461, 32);
-            this.lblBooking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblBooking.Name = "lblBooking";
-            this.lblBooking.Size = new System.Drawing.Size(78, 18);
-            this.lblBooking.TabIndex = 0;
-            this.lblBooking.Text = "Booking";
-            this.lblBooking.Click += new System.EventHandler(this.lblBooking_Click);
+            this.picUser.BackColor = System.Drawing.Color.White;
+            this.picUser.Image = ((System.Drawing.Image)(resources.GetObject("picUser.Image")));
+            this.picUser.Location = new System.Drawing.Point(923, 32);
+            this.picUser.Margin = new System.Windows.Forms.Padding(2);
+            this.picUser.Name = "picUser";
+            this.picUser.Size = new System.Drawing.Size(38, 41);
+            this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUser.TabIndex = 7;
+            this.picUser.TabStop = false;
+            this.picUser.Click += new System.EventHandler(this.picUser_Click);
             // 
             // lblMenu
             // 
             this.lblMenu.AutoSize = true;
             this.lblMenu.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMenu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblMenu.Location = new System.Drawing.Point(346, 32);
+            this.lblMenu.Location = new System.Drawing.Point(524, 32);
             this.lblMenu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMenu.Name = "lblMenu";
             this.lblMenu.Size = new System.Drawing.Size(56, 18);
@@ -226,7 +207,7 @@
             this.lblHome.AutoSize = true;
             this.lblHome.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblHome.Location = new System.Drawing.Point(237, 32);
+            this.lblHome.Location = new System.Drawing.Point(415, 32);
             this.lblHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHome.Name = "lblHome";
             this.lblHome.Size = new System.Drawing.Size(59, 18);
@@ -238,10 +219,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(10, 142);
+            this.panel2.Location = new System.Drawing.Point(10, 123);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(940, 431);
+            this.panel2.Size = new System.Drawing.Size(940, 450);
             this.panel2.TabIndex = 7;
             // 
             // panel3
@@ -264,7 +245,7 @@
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(940, 431);
+            this.panel3.Size = new System.Drawing.Size(940, 450);
             this.panel3.TabIndex = 0;
             // 
             // panel15
@@ -280,6 +261,36 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(187, 89);
             this.panel15.TabIndex = 1;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(91, 41);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(67, 13);
+            this.label39.TabIndex = 3;
+            this.label39.Text = "Price: 25000";
+            // 
+            // btnHotDog
+            // 
+            this.btnHotDog.Location = new System.Drawing.Point(110, 57);
+            this.btnHotDog.Name = "btnHotDog";
+            this.btnHotDog.Size = new System.Drawing.Size(52, 27);
+            this.btnHotDog.TabIndex = 2;
+            this.btnHotDog.Text = "Select";
+            this.btnHotDog.UseVisualStyleBackColor = true;
+            this.btnHotDog.Click += new System.EventHandler(this.btnHotDog_Click);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::RestaurantManagementApp.Properties.Resources.HotDog;
+            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 1;
+            this.pictureBox12.TabStop = false;
             // 
             // label26
             // 
@@ -316,6 +327,36 @@
             this.panel14.Size = new System.Drawing.Size(187, 89);
             this.panel14.TabIndex = 1;
             // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(91, 41);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(67, 13);
+            this.label38.TabIndex = 3;
+            this.label38.Text = "Price: 20000";
+            // 
+            // btnSandWich
+            // 
+            this.btnSandWich.Location = new System.Drawing.Point(111, 57);
+            this.btnSandWich.Name = "btnSandWich";
+            this.btnSandWich.Size = new System.Drawing.Size(52, 27);
+            this.btnSandWich.TabIndex = 2;
+            this.btnSandWich.Text = "Select";
+            this.btnSandWich.UseVisualStyleBackColor = true;
+            this.btnSandWich.Click += new System.EventHandler(this.btnSandWich_Click);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::RestaurantManagementApp.Properties.Resources.GrillSandwich;
+            this.pictureBox11.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 1;
+            this.pictureBox11.TabStop = false;
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -350,6 +391,36 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(187, 89);
             this.panel11.TabIndex = 1;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(90, 41);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(67, 13);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "Price: 45000";
+            // 
+            // btnSteak
+            // 
+            this.btnSteak.Location = new System.Drawing.Point(110, 57);
+            this.btnSteak.Name = "btnSteak";
+            this.btnSteak.Size = new System.Drawing.Size(52, 27);
+            this.btnSteak.TabIndex = 2;
+            this.btnSteak.Text = "Select";
+            this.btnSteak.UseVisualStyleBackColor = true;
+            this.btnSteak.Click += new System.EventHandler(this.btnSteak_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::RestaurantManagementApp.Properties.Resources.Steak;
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 1;
+            this.pictureBox8.TabStop = false;
             // 
             // label18
             // 
@@ -386,6 +457,36 @@
             this.panel10.Size = new System.Drawing.Size(187, 89);
             this.panel10.TabIndex = 1;
             // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(92, 41);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(67, 13);
+            this.label34.TabIndex = 3;
+            this.label34.Text = "Price: 30000";
+            // 
+            // btnSausagePizza
+            // 
+            this.btnSausagePizza.Location = new System.Drawing.Point(111, 57);
+            this.btnSausagePizza.Name = "btnSausagePizza";
+            this.btnSausagePizza.Size = new System.Drawing.Size(52, 27);
+            this.btnSausagePizza.TabIndex = 2;
+            this.btnSausagePizza.Text = "Select";
+            this.btnSausagePizza.UseVisualStyleBackColor = true;
+            this.btnSausagePizza.Click += new System.EventHandler(this.btnSausagePizza_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::RestaurantManagementApp.Properties.Resources.SausagePizza;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -420,6 +521,36 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(187, 89);
             this.panel13.TabIndex = 1;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(91, 43);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(61, 13);
+            this.label36.TabIndex = 3;
+            this.label36.Text = "Price: 5000";
+            // 
+            // btnAquafina
+            // 
+            this.btnAquafina.Location = new System.Drawing.Point(106, 59);
+            this.btnAquafina.Name = "btnAquafina";
+            this.btnAquafina.Size = new System.Drawing.Size(52, 27);
+            this.btnAquafina.TabIndex = 2;
+            this.btnAquafina.Text = "Select";
+            this.btnAquafina.UseVisualStyleBackColor = true;
+            this.btnAquafina.Click += new System.EventHandler(this.btnAquafina_Click);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::RestaurantManagementApp.Properties.Resources.Aquafina;
+            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
             // 
             // label22
             // 
@@ -456,6 +587,36 @@
             this.panelFriedRice.Size = new System.Drawing.Size(187, 89);
             this.panelFriedRice.TabIndex = 1;
             // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(91, 41);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(67, 13);
+            this.label31.TabIndex = 3;
+            this.label31.Text = "Price: 25000";
+            // 
+            // btnFriedRice
+            // 
+            this.btnFriedRice.Location = new System.Drawing.Point(110, 57);
+            this.btnFriedRice.Name = "btnFriedRice";
+            this.btnFriedRice.Size = new System.Drawing.Size(52, 27);
+            this.btnFriedRice.TabIndex = 2;
+            this.btnFriedRice.Text = "Select";
+            this.btnFriedRice.UseVisualStyleBackColor = true;
+            this.btnFriedRice.Click += new System.EventHandler(this.btnFriedRice_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::RestaurantManagementApp.Properties.Resources.FriedRice;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -490,6 +651,36 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(187, 89);
             this.panel9.TabIndex = 1;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(90, 43);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(67, 13);
+            this.label33.TabIndex = 3;
+            this.label33.Text = "Price: 10000";
+            // 
+            // btnRevive
+            // 
+            this.btnRevive.Location = new System.Drawing.Point(106, 59);
+            this.btnRevive.Name = "btnRevive";
+            this.btnRevive.Size = new System.Drawing.Size(52, 27);
+            this.btnRevive.TabIndex = 2;
+            this.btnRevive.Text = "Select";
+            this.btnRevive.UseVisualStyleBackColor = true;
+            this.btnRevive.Click += new System.EventHandler(this.btnRevive_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::RestaurantManagementApp.Properties.Resources.Revive;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
             // 
             // label14
             // 
@@ -526,6 +717,36 @@
             this.panel12.Size = new System.Drawing.Size(187, 89);
             this.panel12.TabIndex = 1;
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(90, 43);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(67, 13);
+            this.label37.TabIndex = 3;
+            this.label37.Text = "Price: 14000";
+            // 
+            // btnJuice
+            // 
+            this.btnJuice.Location = new System.Drawing.Point(108, 59);
+            this.btnJuice.Name = "btnJuice";
+            this.btnJuice.Size = new System.Drawing.Size(52, 27);
+            this.btnJuice.TabIndex = 2;
+            this.btnJuice.Text = "Select";
+            this.btnJuice.UseVisualStyleBackColor = true;
+            this.btnJuice.Click += new System.EventHandler(this.btnJuice_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::RestaurantManagementApp.Properties.Resources.OrangeJuice1;
+            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 1;
+            this.pictureBox9.TabStop = false;
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -560,6 +781,36 @@
             this.panelFrenchFried.Name = "panelFrenchFried";
             this.panelFrenchFried.Size = new System.Drawing.Size(187, 89);
             this.panelFrenchFried.TabIndex = 1;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(91, 41);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(67, 13);
+            this.label30.TabIndex = 3;
+            this.label30.Text = "Price: 20000";
+            // 
+            // btnFrenchFried
+            // 
+            this.btnFrenchFried.Location = new System.Drawing.Point(111, 57);
+            this.btnFrenchFried.Name = "btnFrenchFried";
+            this.btnFrenchFried.Size = new System.Drawing.Size(52, 27);
+            this.btnFrenchFried.TabIndex = 2;
+            this.btnFrenchFried.Text = "Select";
+            this.btnFrenchFried.UseVisualStyleBackColor = true;
+            this.btnFrenchFried.Click += new System.EventHandler(this.btnFrenchFried_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::RestaurantManagementApp.Properties.Resources.FrenchFries;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
             // 
             // label8
             // 
@@ -596,6 +847,36 @@
             this.panel8.Size = new System.Drawing.Size(187, 89);
             this.panel8.TabIndex = 1;
             // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(90, 43);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(67, 13);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Price: 14000";
+            // 
+            // btnPocari
+            // 
+            this.btnPocari.Location = new System.Drawing.Point(108, 59);
+            this.btnPocari.Name = "btnPocari";
+            this.btnPocari.Size = new System.Drawing.Size(52, 27);
+            this.btnPocari.TabIndex = 2;
+            this.btnPocari.Text = "Select";
+            this.btnPocari.UseVisualStyleBackColor = true;
+            this.btnPocari.Click += new System.EventHandler(this.btnPocari_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::RestaurantManagementApp.Properties.Resources.PocariSweat;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -630,6 +911,36 @@
             this.panelCocaCola.Name = "panelCocaCola";
             this.panelCocaCola.Size = new System.Drawing.Size(187, 89);
             this.panelCocaCola.TabIndex = 1;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(91, 43);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(67, 13);
+            this.label29.TabIndex = 3;
+            this.label29.Text = "Price: 10000";
+            // 
+            // btnCoca
+            // 
+            this.btnCoca.Location = new System.Drawing.Point(106, 59);
+            this.btnCoca.Name = "btnCoca";
+            this.btnCoca.Size = new System.Drawing.Size(52, 27);
+            this.btnCoca.TabIndex = 2;
+            this.btnCoca.Text = "Select";
+            this.btnCoca.UseVisualStyleBackColor = true;
+            this.btnCoca.Click += new System.EventHandler(this.btnCoca_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RestaurantManagementApp.Properties.Resources.Coca_Cola;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // label6
             // 
@@ -667,6 +978,36 @@
             this.panelBurger.Size = new System.Drawing.Size(187, 89);
             this.panelBurger.TabIndex = 1;
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(91, 43);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(67, 13);
+            this.label28.TabIndex = 3;
+            this.label28.Text = "Price: 35000";
+            // 
+            // btnBurger
+            // 
+            this.btnBurger.Location = new System.Drawing.Point(108, 59);
+            this.btnBurger.Name = "btnBurger";
+            this.btnBurger.Size = new System.Drawing.Size(52, 27);
+            this.btnBurger.TabIndex = 2;
+            this.btnBurger.Text = "Select";
+            this.btnBurger.UseVisualStyleBackColor = true;
+            this.btnBurger.Click += new System.EventHandler(this.btnBurger_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::RestaurantManagementApp.Properties.Resources.Burger;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 89);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -688,405 +1029,11 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Burger";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(477, 99);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 19);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Search";
-            // 
-            // txtSearchProduct
-            // 
-            this.txtSearchProduct.Location = new System.Drawing.Point(383, 122);
-            this.txtSearchProduct.Margin = new System.Windows.Forms.Padding(2);
-            this.txtSearchProduct.Name = "txtSearchProduct";
-            this.txtSearchProduct.Size = new System.Drawing.Size(264, 20);
-            this.txtSearchProduct.TabIndex = 1;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::RestaurantManagementApp.Properties.Resources.HotDog;
-            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 1;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::RestaurantManagementApp.Properties.Resources.GrillSandwich;
-            this.pictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::RestaurantManagementApp.Properties.Resources.Steak;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 1;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::RestaurantManagementApp.Properties.Resources.SausagePizza;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::RestaurantManagementApp.Properties.Resources.Aquafina;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::RestaurantManagementApp.Properties.Resources.FriedRice;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::RestaurantManagementApp.Properties.Resources.Revive;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::RestaurantManagementApp.Properties.Resources.OrangeJuice1;
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::RestaurantManagementApp.Properties.Resources.FrenchFries;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::RestaurantManagementApp.Properties.Resources.PocariSweat;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::RestaurantManagementApp.Properties.Resources.Coca_Cola;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::RestaurantManagementApp.Properties.Resources.Burger;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(86, 89);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // picUser
-            // 
-            this.picUser.BackColor = System.Drawing.Color.White;
-            this.picUser.Image = ((System.Drawing.Image)(resources.GetObject("picUser.Image")));
-            this.picUser.Location = new System.Drawing.Point(923, 32);
-            this.picUser.Margin = new System.Windows.Forms.Padding(2);
-            this.picUser.Name = "picUser";
-            this.picUser.Size = new System.Drawing.Size(38, 41);
-            this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picUser.TabIndex = 7;
-            this.picUser.TabStop = false;
-            this.picUser.Click += new System.EventHandler(this.picUser_Click);
-            // 
-            // btnBurger
-            // 
-            this.btnBurger.Location = new System.Drawing.Point(108, 59);
-            this.btnBurger.Name = "btnBurger";
-            this.btnBurger.Size = new System.Drawing.Size(52, 27);
-            this.btnBurger.TabIndex = 2;
-            this.btnBurger.Text = "Select";
-            this.btnBurger.UseVisualStyleBackColor = true;
-            this.btnBurger.Click += new System.EventHandler(this.btnBurger_Click);
-            // 
-            // btnCoca
-            // 
-            this.btnCoca.Location = new System.Drawing.Point(106, 59);
-            this.btnCoca.Name = "btnCoca";
-            this.btnCoca.Size = new System.Drawing.Size(52, 27);
-            this.btnCoca.TabIndex = 2;
-            this.btnCoca.Text = "Select";
-            this.btnCoca.UseVisualStyleBackColor = true;
-            this.btnCoca.Click += new System.EventHandler(this.btnCoca_Click);
-            // 
-            // btnFrenchFried
-            // 
-            this.btnFrenchFried.Location = new System.Drawing.Point(111, 57);
-            this.btnFrenchFried.Name = "btnFrenchFried";
-            this.btnFrenchFried.Size = new System.Drawing.Size(52, 27);
-            this.btnFrenchFried.TabIndex = 2;
-            this.btnFrenchFried.Text = "Select";
-            this.btnFrenchFried.UseVisualStyleBackColor = true;
-            this.btnFrenchFried.Click += new System.EventHandler(this.btnFrenchFried_Click);
-            // 
-            // btnFriedRice
-            // 
-            this.btnFriedRice.Location = new System.Drawing.Point(110, 57);
-            this.btnFriedRice.Name = "btnFriedRice";
-            this.btnFriedRice.Size = new System.Drawing.Size(52, 27);
-            this.btnFriedRice.TabIndex = 2;
-            this.btnFriedRice.Text = "Select";
-            this.btnFriedRice.UseVisualStyleBackColor = true;
-            this.btnFriedRice.Click += new System.EventHandler(this.btnFriedRice_Click);
-            // 
-            // btnPocari
-            // 
-            this.btnPocari.Location = new System.Drawing.Point(108, 59);
-            this.btnPocari.Name = "btnPocari";
-            this.btnPocari.Size = new System.Drawing.Size(52, 27);
-            this.btnPocari.TabIndex = 2;
-            this.btnPocari.Text = "Select";
-            this.btnPocari.UseVisualStyleBackColor = true;
-            this.btnPocari.Click += new System.EventHandler(this.btnPocari_Click);
-            // 
-            // btnJuice
-            // 
-            this.btnJuice.Location = new System.Drawing.Point(108, 59);
-            this.btnJuice.Name = "btnJuice";
-            this.btnJuice.Size = new System.Drawing.Size(52, 27);
-            this.btnJuice.TabIndex = 2;
-            this.btnJuice.Text = "Select";
-            this.btnJuice.UseVisualStyleBackColor = true;
-            this.btnJuice.Click += new System.EventHandler(this.btnJuice_Click);
-            // 
-            // btnRevive
-            // 
-            this.btnRevive.Location = new System.Drawing.Point(106, 59);
-            this.btnRevive.Name = "btnRevive";
-            this.btnRevive.Size = new System.Drawing.Size(52, 27);
-            this.btnRevive.TabIndex = 2;
-            this.btnRevive.Text = "Select";
-            this.btnRevive.UseVisualStyleBackColor = true;
-            this.btnRevive.Click += new System.EventHandler(this.btnRevive_Click);
-            // 
-            // btnSausagePizza
-            // 
-            this.btnSausagePizza.Location = new System.Drawing.Point(111, 57);
-            this.btnSausagePizza.Name = "btnSausagePizza";
-            this.btnSausagePizza.Size = new System.Drawing.Size(52, 27);
-            this.btnSausagePizza.TabIndex = 2;
-            this.btnSausagePizza.Text = "Select";
-            this.btnSausagePizza.UseVisualStyleBackColor = true;
-            this.btnSausagePizza.Click += new System.EventHandler(this.btnSausagePizza_Click);
-            // 
-            // btnSteak
-            // 
-            this.btnSteak.Location = new System.Drawing.Point(110, 57);
-            this.btnSteak.Name = "btnSteak";
-            this.btnSteak.Size = new System.Drawing.Size(52, 27);
-            this.btnSteak.TabIndex = 2;
-            this.btnSteak.Text = "Select";
-            this.btnSteak.UseVisualStyleBackColor = true;
-            this.btnSteak.Click += new System.EventHandler(this.btnSteak_Click);
-            // 
-            // btnAquafina
-            // 
-            this.btnAquafina.Location = new System.Drawing.Point(106, 59);
-            this.btnAquafina.Name = "btnAquafina";
-            this.btnAquafina.Size = new System.Drawing.Size(52, 27);
-            this.btnAquafina.TabIndex = 2;
-            this.btnAquafina.Text = "Select";
-            this.btnAquafina.UseVisualStyleBackColor = true;
-            this.btnAquafina.Click += new System.EventHandler(this.btnAquafina_Click);
-            // 
-            // btnSandWich
-            // 
-            this.btnSandWich.Location = new System.Drawing.Point(111, 57);
-            this.btnSandWich.Name = "btnSandWich";
-            this.btnSandWich.Size = new System.Drawing.Size(52, 27);
-            this.btnSandWich.TabIndex = 2;
-            this.btnSandWich.Text = "Select";
-            this.btnSandWich.UseVisualStyleBackColor = true;
-            this.btnSandWich.Click += new System.EventHandler(this.btnSandWich_Click);
-            // 
-            // btnHotDog
-            // 
-            this.btnHotDog.Location = new System.Drawing.Point(110, 57);
-            this.btnHotDog.Name = "btnHotDog";
-            this.btnHotDog.Size = new System.Drawing.Size(52, 27);
-            this.btnHotDog.TabIndex = 2;
-            this.btnHotDog.Text = "Select";
-            this.btnHotDog.UseVisualStyleBackColor = true;
-            this.btnHotDog.Click += new System.EventHandler(this.btnHotDog_Click);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(91, 43);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(67, 13);
-            this.label28.TabIndex = 3;
-            this.label28.Text = "Price: 35000";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(91, 43);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(67, 13);
-            this.label29.TabIndex = 3;
-            this.label29.Text = "Price: 10000";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(91, 41);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(67, 13);
-            this.label30.TabIndex = 3;
-            this.label30.Text = "Price: 20000";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(91, 41);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(67, 13);
-            this.label31.TabIndex = 3;
-            this.label31.Text = "Price: 25000";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(90, 43);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(67, 13);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Price: 14000";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(90, 43);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(67, 13);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "Price: 10000";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(92, 41);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(67, 13);
-            this.label34.TabIndex = 3;
-            this.label34.Text = "Price: 30000";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(90, 41);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(67, 13);
-            this.label35.TabIndex = 3;
-            this.label35.Text = "Price: 45000";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(91, 43);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(61, 13);
-            this.label36.TabIndex = 3;
-            this.label36.Text = "Price: 5000";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(90, 43);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(67, 13);
-            this.label37.TabIndex = 3;
-            this.label37.Text = "Price: 14000";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(91, 41);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(67, 13);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "Price: 20000";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(91, 41);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(67, 13);
-            this.label39.TabIndex = 3;
-            this.label39.Text = "Price: 25000";
-            // 
             // UserMenuProductCheck
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 585);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtSearchProduct);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -1098,45 +1045,45 @@
             this.Text = "UserMenuProductCheck";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUser)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panelFriedRice.ResumeLayout(false);
             this.panelFriedRice.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panelFrenchFried.ResumeLayout(false);
             this.panelFrenchFried.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panelCocaCola.ResumeLayout(false);
             this.panelCocaCola.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelBurger.ResumeLayout(false);
             this.panelBurger.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1147,14 +1094,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblLocation;
         private System.Windows.Forms.Label lblMenu;
         private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.PictureBox picUser;
-        private System.Windows.Forms.Label lblBooking;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtSearchProduct;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelBurger;
         private System.Windows.Forms.PictureBox pictureBox1;

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Branch1;
+using RestaurantManagementApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,9 +70,22 @@ namespace RestaurantManagementApp
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void panelCHAT1_Click(object sender, EventArgs e)
         {
+            Session.brandID = "1"; 
+            Branch1SeatsFloor1 branch1SeatsFloor1 = new Branch1SeatsFloor1();
+            this.Hide();
+            branch1SeatsFloor1.ShowDialog();
+            this.Close();
+        }
 
+        private void panelCHAT2_Click(object sender, EventArgs e)
+        {
+            Session.brandID = "2";
+            Branch1SeatsFloor1 branch1SeatsFloor1 = new Branch1SeatsFloor1();
+            this.Hide();
+            branch1SeatsFloor1.ShowDialog();
+            this.Close();
         }
     }
 }
