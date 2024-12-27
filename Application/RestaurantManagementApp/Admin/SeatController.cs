@@ -34,7 +34,7 @@ namespace RestaurantManagementApp.Admin
             try
             {
                 cmbStatus.Items.Clear();
-                cmbStatus.Items.Add("Availabe");
+                cmbStatus.Items.Add("Available");
                 cmbStatus.Items.Add("Not Available");
                 using (HttpClient client = new HttpClient())
                 {

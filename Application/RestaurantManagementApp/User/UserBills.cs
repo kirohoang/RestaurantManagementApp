@@ -75,6 +75,7 @@ namespace RestaurantManagementApp
         {
             try
             {
+                //MessageBox.Show(Session.orderID.ToString());
                 using (HttpClient client = new HttpClient())
                 {
                     client.BaseAddress = new Uri(api.api_url);
@@ -86,9 +87,11 @@ namespace RestaurantManagementApp
                     if (response.IsSuccessStatusCode)
                     {
                         string jsonResponse = await response.Content.ReadAsStringAsync();
-                        var orderDetails = JsonConvert.DeserializeObject<List<OrderDetails>>(jsonResponse);
+                        var orderDetails = JsonConvert.DeserializeObject<OrderDetails>(jsonResponse);
 
-                        dataGridView1.DataSource = orderDetails;
+                        txtProductName.Text = orderDetails.ProductName;
+                        txtQuantity.Text = orderDetails.Quantity.ToString();
+                        txtPrice.Text = orderDetails.Price.ToString();
                     }
                     else
                     {

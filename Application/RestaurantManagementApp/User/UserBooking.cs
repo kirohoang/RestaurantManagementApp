@@ -130,11 +130,23 @@ namespace RestaurantManagementApp
                                     Quantity = int.Parse(txtQuantity.Text),
                                     Price = decimal.Parse(txtQuantity.Text) * Session.price
                                 };
+                                decimal newBudget = Session.customerBudget - (decimal.Parse(txtQuantity.Text) * Session.price);
+                                CustomerDetails customerDetails = new CustomerDetails()
+                                {
+                                    CustomerBudget = newBudget
+                                };
+
+                                string json = JsonConvert.SerializeObject(customerDetails);
+                                HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
+                                HttpResponseMessage responseUpdateCustomerBudget = await client.PutAsync($"api/CustomerDetails/update-budget-after-order/{txtCustomerID.Text}", content);
+
+                                // Update Customer Budget
+
                                 Session.orderID = createdOrder.OrderId.ToString();
                                 string jsonOrderDetails = JsonConvert.SerializeObject(orderDetails);
                                 HttpContent contentOrderDetails = new StringContent(jsonOrderDetails, Encoding.UTF8, "application/json");
                                 HttpResponseMessage responseAddOrderDetails = await client.PostAsync("api/OrderDetails", contentOrderDetails);
-                                MessageBox.Show("Ordered Sucessfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("Ordered Sucessfully! Please check the bill at home", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }
                     }

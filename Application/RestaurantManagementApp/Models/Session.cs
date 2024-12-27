@@ -17,5 +17,6 @@ namespace RestaurantManagementApp.Models
         public static string product_name { get; set; }
         public static string product_id { get; set; }
         public static decimal price { get; set; }
+        public static decimal customerBudget { get; set; }
     }
 }

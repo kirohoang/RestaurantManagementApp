@@ -99,6 +99,7 @@ namespace RestaurantManagementApp
                         {
                             txtBudget.Text = Convert.ToString(customerDetails.CustomerBudget);
                             txtStatus.Text = customerDetails.Status;
+                            Session.customerBudget = customerDetails.CustomerBudget;
                         }
                         else
                         {
